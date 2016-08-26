@@ -5,7 +5,7 @@ android {
     buildToolsVersion "24.0.0"
 
     defaultConfig {
-        applicationId "com.example.android.interruptsample"
+        applicationId "com.example.naresh.interrupt2016"
         minSdkVersion 19
         targetSdkVersion 24
         versionCode 1

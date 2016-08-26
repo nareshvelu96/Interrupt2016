@@ -16,11 +16,11 @@ import java.util.List;
 /**
  * Created by Hong Thai
  */
-public class ListViewAdapter extends ArrayAdapter<com.example.android.interruptsample.event> {
+public class ListViewAdapter extends ArrayAdapter<com.example.naresh.interrupt2016.event> {
 
     private Activity activity;
 
-    public ListViewAdapter(Activity activity, int resource, List<com.example.android.interruptsample.event> events) {
+    public ListViewAdapter(Activity activity, int resource, List<com.example.naresh.interrupt2016.event> events) {
         super(activity, resource, events);
         this.activity = activity;
 
