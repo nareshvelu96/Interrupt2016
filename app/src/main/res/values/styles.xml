@@ -1,0 +1,69 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorControlNormal">#c5c5c5</item>
+        <item name="colorControlActivated">@color/accent</item>
+        <item name="colorControlHighlight">@color/accent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+    <style name="floatlabelededittext">
+        <item name="android:textColor">#FF0000</item>
+    </style>
+
+    <color name="card_bg">#ffffff</color>
+    <color name="text_color">#212121</color>
+    <color name="event_bg">#009688</color>
+    <color name="event_card">#F57C00</color>
+
+    <color name="color_primary_light">#009688</color>
+
+
+
+    <color name="textColorPrimary">#FFFFFF</color>
+    <color name="textColorSecondary">#CCCCCC</color>
+    <color name="windowBackground">#FFFFFF</color>
+    <color name="navigationBarColor">@color/primary</color>
+
+    <color name="list_item_title">#fff</color>
+    <color name="list_background">@color/primary</color>
+    <color name="list_background_pressed">@color/primary_dark</color>
+    <color name="list_divider">@color/divider</color>
+    <color name="counter_text_bg">#626262</color>
+    <color name="counter_text_color">#c5c4c4</color>
+    <!--
+
+        <color name="text_color">#000000</color>
+        <color name="primary">#00BCD4</color>
+        <color name="primary_dark">#0097A7</color>
+        <color name="primary_light">#B2EBF2</color>
+        <color name="accent">#FF5722</color>
+        <color name="primary_text">#212121</color>
+        <color name="secondary_text">#727272</color>
+        <color name="icons">#FFFFFF</color>
+        <color name="divider">#B6B6B6</color>
+
+
+    -->
+    <color name="primary">#FFAB40</color>
+    <color name="primary_dark">#FF9100</color>
+    <color name="primary_light">#FFD180</color>
+    <color name="accent">#FFC107</color>
+    <color name="primary_text">#212121</color>
+    <color name="secondary_text">#727272</color>
+    <color name="icons">#FFFFFF</color>
+    <color name="divider">#B6B6B6</color>
+
+
+
+
+</resources>

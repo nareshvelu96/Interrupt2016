@@ -1,0 +1,301 @@
+<resources>
+    <string name="app_name">Interrupt2016</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string-array name="myb">
+        <item>MYB V3.0</item>
+        <item>I am the person anybody turns to for suggestions(friends:Where  can we go? U: where we always do... friends: wonderful da!!).\n\n
+ I can tackle my way out of any situation logically(If you had a pizza with crust thickness \'A\' and radius \'Z\', what\'s the volume of the pizza?  .\n\n
+I do a lot of non- technical scenario-based thinking almost always seemingly paradoxical.(eg. Did the teacher kick me out because I was talking when he was talking or because I did not talk when he wanted me to.).\n\n
+Do you know the art of “SAMALIFICATION?”( for those of you who don’t know what it means,  don’t fret, it is something you do during viva to the external!)\n\n
+If you do at least one of the above, why are you wasting time reading?\n\n
+REGISTER NOW!. </item>
+        <item>
+1. Personality-based sentimental analysis \n
+(In app and on spot only, pen and paper also)\n
+(Q::Do you forgive an offender or will you take revenge?\n A::Never mind, both are right). (option c: pat-slap (whack!!):P)\n\n
+2. Guess the product!!(just make the CONNEXION)\n\n
+3. What’s business without some gamble? Gear up to be nimble; Don’t tremble, for you have full rights to ramble!!\n\n
+DumbC+ rapid fire+ puzzles</item>
+
+        <item>1. Download our app\n\n
+2.  Neenga vanda mattum podum!!!\n\n
+3. 2 members max. Individual contestants are also\t\t welcome.</item>
+        <item>I am in heaven but not in hell.\n
+
+I’m in the devil but not in god.\n
+
+I’m in the river but not in the sea.\n
+
+What am I?</item>
+
+    </string-array>
+
+    <string-array name="datasurfer">
+        <item>DATA SURFER</item>
+        <item><p>Do you think you can find hidden words? Do you think your letters are better organised than anybody else’s? Do you believe in logical reasoning  and forming words using letters from patterns?
+
+If you are Wordsworth or even 10% his words’ worth,  this is the right event for
+
+you. Mind you, the only language you need to know is a little English and certain
+
+computer science terms( The latter only for extra points). So feel free and jump in
+
+to indulge, guess and talk gibberish in the best possible ways. </p></item>
+
+        <item>\t1.Application based data structures( NOT QUIZ, on spot only but in app{we are in
+
+a green movement,you see :P})\n\n
+2.Word Search (from data structures)\n\t\n
+
+3.”Sethan sivanandi” round (dare to find out).</item>
+        <item> \t 1. Download our app\n\t\n\t
+ 2. A Very Basic knowledge on basic data\n\t structures (arrays, stack, queues, list and
+
+\n\t trees) CODING NOT NECESSARY.\n\n\t
+
+</item>
+        <item>1. Arrays are best data structures\n\n
+
+A) for relatively permanent collections of data\n\n
+
+B) for the size of the structure and the data in the structure are constantly changing\n\n
+
+C) for both of above situation\n\n
+D) for none of above situation\n\n</item>
+
+    </string-array>
+
+    <string-array name="datadoss">
+        <item>DATA DOSSIER</item>
+        <item>Search, think, dig and mine until you strike data, the “Diamond of the millennia”. \n\n
+“Can you read tables?”. You CAN’T say NO. ‘cause time tables have tested us through and through. All the time. Now its TIME for TABLES to be IN something . Rather it is time for everything to be in tables. They extract your resources, time and energy. Its time for REVENGE.  So get ready to comprehend and extract from tables. All set? Sweet revenge! There you are! Best offer. </item>
+        <item>1)Query round:\n\n
+Round one is querying on-site on databases already created.\n\n
+2)Story round:Analyze the data and form a story out of it. The best story bags the prize. \n\n </item>
+        <item>1) A knowledge of the basic MySQL queries(select, insert, update, delete, show ,create)[Don’t bother with triggers procedures and functions much]\n\n
+2)No need to query at all for round two.\n\n
+3) Team of 2 or 3 is allowed.</item>
+        <item>Prepare a bill showing item details and the price such that he eats the maximum number of
+
+items and still pays only between 1000 and 1500.</item>
+
+    </string-array>
+
+    <string-array name="codenin">
+        <item>CODE NINJA</item>
+        <item>Three steps to geek-dom::\n\n
+1) Annihilate\n\n
+2) Transpose\n\n
+3) Cipher\n\n </item>
+        <item>
+1. Debugging : “repair and redress” Hey there! Error Spotter!!\n\n
+2. Reverse Coding: “can u back pedal?” Backtrack, and find the source (code).\n\n
+3. Coding: : “Indite, indent ,innovate” Use logic to do the magic and you are now a geek.\n\n</item>
+        <item>1)Team event -3members per team\n\n
+2) All events are on spot(in app as well as pen-and-paper)\n\n
+3) Let Basic programming knowledge(java is not necessary c,c++ will do), pattern recognition and common sense guide you.\n\n</item>
+        <item>main()\n
+
+{\n
+
+clrscr();\n
+
+}\n
+
+clrscr();\n\n
+
+Answer:\n
+
+No output/error\n\n
+
+Explanation:\n
+
+The first clrscr() occurs inside a function. So it becomes a function call. In the second clrscr();
+
+is a function declaration (because it is not inside any function).</item>
+
+    </string-array>
+
+    <string-array name="paperRe">
+        <item>PAPIER REMISE</item>
+        <item>Are you happier knowing the working of Napier bones? Do you have a knack at discovery like Indiana Jones? Then bring it out coherently in the form of a structured writing aka “paper”. Though all your thoughts are welcome, there are a select few topics in which your thought outflow is gladly welcome. </item>
+        <item>Will be updated soon.check out our website for quick updates\n\n www.interrupt15.in</item>
+        <item>1) Abstract must be sent by\n\n
+2) Maximum 3 members per team.\n\n
+3) Please adhere to the topic chosen strictly.\n\n
+4) Choose topics only from the list given below:\n\n
+</item>
+        <item>1.Data Mining\n\n
+
+2.Image Processing\n\n
+
+3.Artificial Intelligence\n\n
+
+4.Networks\n\n
+
+5.Datalake\n\n
+
+6.Multimedia\n\n
+
+7.Distributed Computing\n\n
+
+8.Embedded Systems.</item>
+
+    </string-array>
+    <string-array name="dumbc">
+        <item>DUMBC</item>
+        <item>Bring out the geek in you and introduce them to the great actor that you are! This is your chance to
+
+show how good an actor and how smart a person you are. We’ve got some exciting rounds and fun
+
+twists to the usual DumbC game. Register yourself right now and see yourself become the next Tom
+
+Cruise or Jennifer Aniston. </item>
+
+        <item><b>1)TECH-TABOO</b>\n
+
+<p>\t\tTaboo is a verbal game played with teams of three players or more with a set of taboo
+
+words.</p>\n
+       <b> 2)AUDIO ROUND/MOVIE ROUND\n</b>
+
+<p>\t\tA player from each team would have to pick a chit from the pile which has a mix of both
+
+audio as well as movie round. Each team therefore, would have to play either of the two
+
+depending on the chit.</p></item>
+
+        <item><p> Only 3 participants allowed per team;\n</p>
+
+<p> Each member of the team has to come at least once for gesticulation;\n</p>
+
+<p>POINTS: 10 points for guessing,5 points for pass question;\n</p>
+
+<p> At the end of each round points are tallied for each team, and top 5 teams make
+
+it to the finals after which the winner is declared by the team with the most
+
+points.</p></item>
+        <item>Will be updated soon</item>
+
+    </string-array>
+
+
+    <string-array name="hintforage">
+        <item>HINT FORAGE</item>
+        <item>Puzzles and hints!!  Sate your hunger for quests and teasers. Get lost in the interaction of fuzziness and logic. Do you think you can handle the tempest?\n\n
+Emerge victorious!!  </item>
+        <item>1. Puzzles, riddles and a lot of other stuff. ( other stuff::The things done when boredom threatens your life).\n\n
+2.  Fire at will.\n\n
+3. Can’t talk in public? Then get ready to ACT on cue to identify a clue!!!.\n\n
+</item>
+        <item>1. Download our app\n\n
+2. Round 1 in app as well as pen and paper\n\n
+3. 2 or 3 members per team.</item>
+        <item>In the attached picture, you can find different dice results. The empty throw means that
+
+the dice fell off the board. If we tell you that each pair of results have a relation to the
+
+overall system, can you find out the missing last tile?</item>
+
+    </string-array>
+
+
+
+    <string-array name="coc">
+        <item>COC</item>
+        <item>Class FindWhatsOnYourMind{\n
+
+Enum StatesEveryday{ \n
+
+BORED, DOODLING, TEXTING, SLEEPING\n
+
+};\n
+
+Enum OnSept3rd{\n
+
+EXCITED, RUNNING, HAPPY, ENJOYING, ACTUALLY_LEARNING\n
+
+};\n
+
+String day,date,Venue;\n
+
+Public static void main( String [] args)\n
+
+{\n
+
+getDateDayLocation();/* write ui or something to get the date and venue*/\n
+
+try{\n
+
+if(Date != (depending  on how we get input)Sept3rd)\n
+
+{\n
+
+/*choosing a random value from StatesEveryday*/\n
+
+StatesEveryday x= \n
+
+StatesEveryday.values()[newRandom().nextInt(StatesEveryday.values().length)];\n
+
+System.out.println(“I am”+x);\n
+
+}\n
+
+else\n
+
+{\n
+
+throw new InterruptedException();\n
+
+} }\n
+
+catch(InterruptedException e){\n
+
+ assert (Venu.equalsIgnoreCase(“svce”)) (“Must go to SVCE soon”);\n
+
+System .out.println(“Hah Yay, I am caught in the exceptional INTERRUPT”+ “ \\n I
+
+am”);\n
+
+for(OnSept3rd o: OnSept3rd.values())\n
+
+{\n
+
+System.out.print(o+ “\t”);\n
+
+}}} </item>
+        <item>1) Write only 10-12 lines and make magic\n\n
+
+2) This takes perseverance and endurance. Can you extrapolate your
+
+creational and application skills</item>
+        <item>1) Not a team Event\n\n
+
+2) Online coding (Work from home)!!!</item>
+        <item>Will be updated soon</item>
+
+    </string-array>
+    <string-array name="quizzler">
+
+        <item>QUIZZLER</item>
+        <item>Forget the subject, take a break and use CS for Common Sense and not Computer
+
+Science for a while.
+
+Connect images, view the unseen, organize your thoughts and indulge in the
+
+process of finding the needful. </item>
+        <item>1) Exciting and intriguing teasers, incomplete one liners ,etc.,\n\n
+
+2) Test your IQ. Puzzles await you.</item>
+        <item>1) No programming knowledge is needed
+\n\n
+2) Basic skills for aptitude and reasoning.</item>
+        <item>Will be updated soon</item>
+    </string-array>
+</resources>

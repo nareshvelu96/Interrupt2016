@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="dept">
+        <item>CSE</item>
+        <item>IT</item>
+        <item>ECE</item>
+        <item>EEE</item>
+        <item>AUTO</item>
+        <item>BT</item>
+        <item>MECH</item>
+        <item>CIVIL</item>
+        <item>CHEM</item>
+    </string-array>
+    <string-array name="year">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+</resources>

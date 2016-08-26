@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="About Interrupt"
+            android:checked="true"/>
+        <item
+            android:id="@+id/nav_events"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Events" />
+        <item
+            android:id="@+id/nav_transport"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Transport" />
+        <item
+            android:id="@+id/nav_why"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Why App?" />
+        <item
+            android:id="@+id/nav_map"
+            android:icon="@mipmap/ic_map_white_48dp"
+            android:title="SVCE Map" />
+        <item
+            android:id="@+id/nav_reg"
+            android:icon="@mipmap/ic_create_white_48dp"
+            android:title="Event Registration" />
+        <item
+            android:id="@+id/nav_contact"
+            android:icon="@mipmap/ic_call_white_48dp"
+            android:title="Contact Us" />
+        <item
+            android:id="@+id/nav_sponsors"
+            android:icon="@mipmap/ic_person_white_48dp"
+            android:title="Our Sponsors" />
+        <item
+            android:id="@+id/nav_ins"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Instructions" />
+        <item
+            android:id="@+id/nav_letsgo"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Let's Go" />
+
+    </group>
+
+    </menu>
