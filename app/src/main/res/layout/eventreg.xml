@@ -6,28 +6,9 @@
     android:layout_height="match_parent"
     android:background="@drawable/bg_card"
     tools:ignore="MissingPrefix"
-    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+android:padding="20dp"
     android:layout_gravity="center"
     android:gravity="center">
-<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    xmlns:card_view="http://schemas.android.com/tools"
-    android:layout_marginBottom="8dp"
-    android:layout_marginLeft="10dp"
-    android:layout_marginRight="10dp"
-    android:layout_marginTop="8dp"
-    card_view:cardBackgroundColor="@color/card_bg"
-    app:cardCornerRadius="2dp"
-    app:cardElevation="2dp"
-
-    app:cardPreventCornerOverlap="false"
-    app:contentPadding="0dp">
-<LinearLayout
-    android:orientation="vertical" xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent" android:layout_height="match_parent">
     <TextView
         fontPath="fonts/hamburger.TTF"
         android:layout_width="match_parent"
@@ -41,60 +22,60 @@
         android:layout_height="1dp"
         android:background="#B6B6B6"
         android:layout_marginRight="20dp"/>
-    <CheckBox
+    <Switch
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="MYB V3.0"
         android:textColor="@color/text_color"
         android:id="@+id/mybcb"/>
-    <CheckBox
+    <Switch
         android:layout_width="match_parent"
         android:textColor="@color/text_color"
         android:layout_height="wrap_content"
         android:text="Data Surfer"
         android:id="@+id/tabcb"/>
 
-    <CheckBox
+    <Switch
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Data Dossier"
         android:id="@+id/syncb"
         android:textColor="@color/text_color"/>
 
-    <CheckBox
+    <Switch
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Code Ninja"
         android:id="@+id/tricb"
         android:textColor="@color/text_color"/>
 
-    <CheckBox
+    <Switch
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="HintForage"
         android:id="@+id/bombcb"
         android:textColor="@color/text_color"/>
 
-    <CheckBox
+    <Switch
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="DumbC"
         android:id="@+id/dumbcb"
         android:textColor="@color/text_color"/>
-    <CheckBox
+    <Switch
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Papier Remise"
         android:id="@+id/paper"
         android:textColor="@color/text_color"/>
 
-    <CheckBox
+    <Switch
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Code Fraternity"
         android:id="@+id/cfcb"
         android:textColor="@color/text_color"/>
-    <CheckBox
+    <Switch
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Quizzler"
@@ -107,6 +88,4 @@
         android:layout_height="wrap_content"
         android:text="Register"/>
 
-</LinearLayout>
-</android.support.v7.widget.CardView>
 </LinearLayout>

@@ -157,6 +157,7 @@ public class Login extends AppCompatActivity {
             super.onPostExecute(s);
             loading.dismiss();
             if(s.equalsIgnoreCase("success")){
+                Values.is_loggedin=true;
                 Intent intent = new Intent(Login.this,MainActivity.class);
              //   finish();
                 startActivity(intent);

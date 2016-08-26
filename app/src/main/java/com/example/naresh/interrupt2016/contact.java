@@ -2,11 +2,13 @@ package com.example.naresh.interrupt2016;
 
 import android.app.Fragment;
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageButton;
 
 import info.hoang8f.widget.FButton;
 
@@ -19,6 +21,52 @@ public class contact extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         view = inflater.inflate(R.layout.contact, container, false);
+        ImageButton call1,call2,call3,call4;
+
+        call1=(ImageButton)view.findViewById(R.id.call1);
+        call2=(ImageButton)view.findViewById(R.id.call2);
+        call3=(ImageButton)view.findViewById(R.id.call3);
+        call4=(ImageButton)view.findViewById(R.id.call4);
+
+
+
+        call1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                String numberToDial = "tel:"+"9043567123";
+                startActivity(new Intent(Intent.ACTION_DIAL, Uri.parse(numberToDial)));
+
+
+            }
+        });
+
+        call2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                String numberToDial = "tel:"+"9003124651";
+                startActivity(new Intent(Intent.ACTION_DIAL, Uri.parse(numberToDial)));
+
+
+            }
+        });
+        call3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                String numberToDial = "tel:"+"9043567123";
+                startActivity(new Intent(Intent.ACTION_DIAL, Uri.parse(numberToDial)));
+
+
+            }
+        });
+        call4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                String numberToDial = "tel:"+"9842092575";
+                startActivity(new Intent(Intent.ACTION_DIAL, Uri.parse(numberToDial)));
+
+
+            }
+        });
 
 
 

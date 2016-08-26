@@ -26,18 +26,24 @@ import android.os.Bundle;
 import android.app.Activity;
 import android.view.Menu;
 
-public class svcemap extends Fragment {
-    @Override
-    public void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        //setContentView(R.layout.activity_main);
-    }
-    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
+import uk.co.senab.photoview.PhotoView;
+import uk.co.senab.photoview.PhotoViewAttacher;
 
-        TouchImageView img = new TouchImageView(getActivity());
-        img.setImageResource(R.drawable.map);
-        img.setMaxZoom(4f);
-        getActivity().setContentView(img);
-        return inflater.inflate(R.layout.svcemap, null);
+public class svcemap extends Fragment {
+    View view;
+        PhotoView mImageView;
+        PhotoViewAttacher mAttacher;
+        @Nullable
+        @Override
+        public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
+            view = inflater.inflate(R.layout.svcemap,container,false);
+// Any implementation of ImageView can be used!
+            mImageView = (PhotoView) view.findViewById(R.id.svce_map);
+// Set the Drawable displayed
+            // Attach a PhotoViewAttacher, which takes care of all of the zooming    functionality.
+            mAttacher = new PhotoViewAttacher(mImageView);
+// If you later call mImageView.setImageDrawable/setImageBitmap/setImageResource/etc then you just need to call
+            mAttacher.update();
+            return view;
+        }
     }
-}
