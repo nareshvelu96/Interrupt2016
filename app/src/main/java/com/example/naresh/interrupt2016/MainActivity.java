@@ -69,9 +69,9 @@ public class MainActivity extends AppCompatActivity
         // Handle navigation view item clicks here.
         int id = item.getItemId();
         android.app.FragmentManager fragmentManager = getFragmentManager();
-
         if (id == R.id.nav_about) {
             fragmentManager.beginTransaction().replace(R.id.content_frame,new aboutInterrupt()).commit();
+
         } else if (id == R.id.nav_events) {
             fragmentManager.beginTransaction().replace(R.id.content_frame,new events_fragment()).commit();
         } else if (id == R.id.nav_transport) {

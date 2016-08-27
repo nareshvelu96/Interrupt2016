@@ -21,6 +21,7 @@ public class contact extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         view = inflater.inflate(R.layout.contact, container, false);
+
         ImageButton call1,call2,call3,call4;
 
         call1=(ImageButton)view.findViewById(R.id.call1);
