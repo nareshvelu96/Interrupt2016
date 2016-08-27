@@ -58,8 +58,8 @@
                 android:layout_marginBottom="24dp"
                 android:padding="12dp"
                 android:text="Login"
-                android:fontFamily="fonts/Roboto-Light.ttf"
-                android:backgroundTint="#009688"/>
+                android:fontFamily="fonts/LobsterTwo-Regular.ttf"
+                android:backgroundTint="#00c6ff"/>
 
             <TextView android:id="@+id/link_signup"
                 android:layout_width="fill_parent"
@@ -68,6 +68,7 @@
                 android:text="Create account"
                 android:gravity="center"
                 android:textSize="16dip"
+                android:textColor="#FFFFFF"
                 android:fontFamily="fonts/Roboto-Light.ttf"/>
 
         </LinearLayout>

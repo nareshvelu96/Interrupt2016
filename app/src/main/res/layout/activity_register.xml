@@ -5,7 +5,7 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:fitsSystemWindows="true"
-    android:background="@color/cardview_dark_background"
+    android:background="@drawable/login_bg"
     tools:ignore="MissingPrefix">
 
     <LinearLayout
@@ -137,13 +137,14 @@
             android:padding="12dp"
             android:text="Register"
             android:fontFamily="fonts/Roboto-Light.ttf"
-            android:backgroundTint="#009688"/>
+            android:backgroundTint="#00c6ff"/>
 
         <TextView android:id="@+id/link_login"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="24dp"
             android:text="Already a member? Login"
+            android:textColor="#FFFFFF"
             android:fontFamily="fonts/Roboto-Light.ttf"
             android:gravity="center"
             android:textSize="16dip"/>
