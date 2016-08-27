@@ -18,17 +18,6 @@ public class aboutInterrupt extends Fragment  {
     @Override
     public View onCreateView(final LayoutInflater inflater, final ViewGroup container, Bundle savedInstanceState) {
         view = inflater.inflate(R.layout.about, container, false);
-        final Button button = (Button) view.findViewById(R.id.button1);
-        button.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-
-                android.app.FragmentManager fragmentManager = getFragmentManager();
-                fragmentManager.beginTransaction().replace(R.id.content_frame, new events_fragment()).commit();
-
-
-            }
-        });
         return view;
     }
 
