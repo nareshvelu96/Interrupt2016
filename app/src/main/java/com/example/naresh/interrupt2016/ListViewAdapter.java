@@ -45,38 +45,38 @@ public class ListViewAdapter extends ArrayAdapter<com.example.naresh.interrupt20
             holder = (ViewHolder) convertView.getTag();
         }
 
-        holder.employeeName.setText(getItem(position).getEvent_name());
+        holder.eventName.setText(getItem(position).getEvent_name());
 
         if (getItem(position).getEvent_name().equals("MYB V3.0")) {
-            holder.genderIcon.setImageResource(R.drawable.myb);
+            holder.eventIcon.setImageResource(R.drawable.myb);
         }else if (getItem(position).getEvent_name().equals("DATA SURFER")) {
-            holder.genderIcon.setImageResource(R.drawable.datasurf);
+            holder.eventIcon.setImageResource(R.drawable.datasurf);
         }else if (getItem(position).getEvent_name().equals("DATA DOSSIER")){
-            holder.genderIcon.setImageResource(R.drawable.datados);
+            holder.eventIcon.setImageResource(R.drawable.datados);
         }else if (getItem(position).getEvent_name().equals("CODE NINJA")) {
-            holder.genderIcon.setImageResource(R.drawable.codeninja);
+            holder.eventIcon.setImageResource(R.drawable.codeninja);
         }else if (getItem(position).getEvent_name().equals("PAPIER REMISE")) {
-            holder.genderIcon.setImageResource(R.drawable.paperr);
+            holder.eventIcon.setImageResource(R.drawable.paperr);
         }else if (getItem(position).getEvent_name().equals("DUMBC")) {
-            holder.genderIcon.setImageResource(R.drawable.dumbcport);
+            holder.eventIcon.setImageResource(R.drawable.dumbcport);
         }else if (getItem(position).getEvent_name().equals("HINT FORAGE")) {
-            holder.genderIcon.setImageResource(R.drawable.hint);
+            holder.eventIcon.setImageResource(R.drawable.hint);
         }else if (getItem(position).getEvent_name().equals("COC")) {
-            holder.genderIcon.setImageResource(R.drawable.clashofcoders);
+            holder.eventIcon.setImageResource(R.drawable.clashofcoders);
         }else if (getItem(position).getEvent_name().equals("QUIZZLER")) {
-            holder.genderIcon.setImageResource(R.drawable.quizzler);
+            holder.eventIcon.setImageResource(R.drawable.quizzler);
         }
 
         return convertView;
     }
 
     private static class ViewHolder {
-        private TextView employeeName;
-        private ImageView genderIcon;
+        private TextView eventName;
+        private ImageView eventIcon;
 
         public ViewHolder(View v) {
-            employeeName = (TextView) v.findViewById(R.id.name);
-            genderIcon = (ImageView) v.findViewById(R.id.icon);
+            eventName = (TextView) v.findViewById(R.id.name);
+            eventIcon = (ImageView) v.findViewById(R.id.icon);
         }
     }
 }
