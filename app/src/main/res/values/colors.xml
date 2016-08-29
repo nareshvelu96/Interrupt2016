@@ -9,6 +9,7 @@
     <color name="green">#006600</color>
     <color name="red">#BB0000</color>
     <color name="yellow">#FFFF33</color>
+    <color name="custom">#90CAF9</color>
     <color name="background">#FFFACD</color>
 
 </resources>

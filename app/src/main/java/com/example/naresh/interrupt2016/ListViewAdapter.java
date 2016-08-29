@@ -4,6 +4,7 @@ package com.example.naresh.interrupt2016;
  * Created by Mathangi on 24-08-2016.
  */
 import android.app.Activity;
+import android.graphics.Typeface;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -46,6 +47,10 @@ public class ListViewAdapter extends ArrayAdapter<com.example.naresh.interrupt20
         }
 
         holder.eventName.setText(getItem(position).getEvent_name());
+        Typeface fontRobo = Typeface.createFromAsset(getContext().getAssets(), "fonts/CaviarDreams.ttf");
+        //name.setText(total.toString());
+        holder.eventName.setTypeface(fontRobo );
+
 
         if (getItem(position).getEvent_name().equals("MYB V3.0")) {
             holder.eventIcon.setImageResource(R.drawable.myb);

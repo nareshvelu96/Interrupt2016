@@ -58,7 +58,7 @@
                 android:layout_marginBottom="24dp"
                 android:padding="12dp"
                 android:text="Login"
-                android:fontFamily="fonts/LobsterTwo-Regular.ttf"
+                android:fontFamily="fonts/LobsterTwo-Regular.otf"
                 android:backgroundTint="#00c6ff"/>
 
             <TextView android:id="@+id/link_signup"
