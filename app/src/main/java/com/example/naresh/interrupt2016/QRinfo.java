@@ -27,13 +27,8 @@ public class QRinfo extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.qrdisplay);
         tag=getIntent().getExtras().getString("tag");
-        if(tag.equals("main"))
+        qrInputText = Values.name + "," + Values.email + "," + Values.id + "," + Values.phone;
 
-        {
-            qrInputText = Values.name + "," + Values.email + "," + Values.id + "," + Values.phone;
-        }else{
-            qrInputText=Values.name + "," + Values.email + "," + Values.id + "," + Values.phone + "," + getIntent().getExtras().getString("score");
-        }
         WindowManager manager = (WindowManager) getSystemService(WINDOW_SERVICE);
         Display display = manager.getDefaultDisplay();
         Point point = new Point();
@@ -63,7 +58,7 @@ public class QRinfo extends Activity {
             @Override
             public void onClick(View v) {
 
-                Toast.makeText(QRinfo.this,"Enjoy Your Stay here", Toast.LENGTH_LONG);
+                Toast.makeText(QRinfo.this,"Enjoy Your Stay here", Toast.LENGTH_LONG).show();
             }
         });
 

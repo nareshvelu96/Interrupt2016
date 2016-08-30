@@ -21,14 +21,11 @@ public class Login extends AppCompatActivity {
     private static final String TAG = "LoginActivity";
     private static final int REQUEST_SIGNUP = 0;
     private static final String LOGIN_URL = "http://bhojansvce.16mb.com/interruptlogin.php";
-    @InjectView(R.id.input_email)
-    EditText _emailText;
-    @InjectView(R.id.input_password)
-    EditText _passwordText;
-    @InjectView(R.id.btn_login)
-    Button _loginButton;
-    @InjectView(R.id.link_signup)
-    TextView _signupLink;
+    @InjectView(R.id.input_email) EditText _emailText;
+
+    @InjectView(R.id.input_password)    EditText _passwordText;
+    @InjectView(R.id.btn_login)    Button _loginButton;
+    @InjectView(R.id.link_signup)    TextView _signupLink;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -98,8 +95,9 @@ public class Login extends AppCompatActivity {
 
     @Override
     public void onBackPressed() {
-        // disable going back to the MainActivity
-        moveTaskToBack(true);
+        // enable going back to the MainActivity
+        Intent i= new Intent(getBaseContext(),MainActivity.class);
+        startActivity(i);
     }
 
     public void onLoginSuccess() {

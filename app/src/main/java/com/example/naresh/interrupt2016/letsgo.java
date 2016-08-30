@@ -1,7 +1,9 @@
 package com.example.naresh.interrupt2016;
 
 import android.app.Fragment;
+import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.view.LayoutInflater;
@@ -24,8 +26,11 @@ public class letsgo extends Fragment {
         bt.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view){
-                if (Values.is_loggedin)
-                    new IntentIntegrator(getActivity()).initiateScan();
+                if (Values.is_loggedin){
+                    Intent i = new Intent(getActivity().getApplicationContext(), QRinfo.class);
+                    i.putExtra("tag","main");
+                    startActivity(i);
+                }
                 else {
                     Intent i = new Intent(getActivity().getApplicationContext(), Login.class);
                     i.putExtra("tag", "update");

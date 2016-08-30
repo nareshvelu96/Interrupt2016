@@ -1,7 +1,9 @@
 package com.example.naresh.interrupt2016;
 
 import android.app.ProgressDialog;
+import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -24,8 +26,7 @@ public class Register extends AppCompatActivity {
     private static final String TAG = "SignupActivity";
     private static final String REGISTER_URL = "http://bhojansvce.16mb.com/register.php";
 
-    @InjectView(R.id.name)
-    EditText _nameText;
+    @InjectView(R.id.name) EditText _nameText;
     @InjectView(R.id.email) EditText _emailText;
     @InjectView(R.id.passwrd) EditText _passwordText;
     @InjectView(R.id.rpasswrd) EditText _cpasswordText;
@@ -111,6 +112,30 @@ public class Register extends AppCompatActivity {
         _signupButton.setEnabled(true);
         setResult(RESULT_OK, null);
         registerUser();
+        SharedPreferences pref = getSharedPreferences("MyPref", Context.MODE_PRIVATE);
+        SharedPreferences.Editor  editor = pref.edit();
+        String name = _nameText.getText().toString();
+        String email = _emailText.getText().toString();
+        String phno = _phoneNumber.getText().toString();
+
+        // if(pref.getString("done", null)==null){
+        editor.putString("name",name);
+        editor.putString("email", email);
+        editor.putString("phone", phno);
+        //editor.putString("auth_token", Values.auth_token);
+        editor.putString("id", "0");
+        editor.putBoolean("complete", true);
+        editor.putBoolean("islogged",true);
+        Values.is_loggedin=true;
+        editor.commit();
+        Values.email=email;
+        Values.name=name;
+        Values.phone=phno;
+        Intent i = new Intent(getApplicationContext(), MainActivity.class);
+        startActivity(i);
+
+
+
 
     }
 

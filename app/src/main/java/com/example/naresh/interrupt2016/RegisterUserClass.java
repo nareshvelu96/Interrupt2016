@@ -4,6 +4,7 @@ import android.support.annotation.NonNull;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
+import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.io.OutputStream;
 import java.io.OutputStreamWriter;
@@ -20,6 +21,7 @@ import javax.net.ssl.HttpsURLConnection;
  * Created by Mathangi on 23-08-2016.
  */
 public class RegisterUserClass {
+    static InputStream is= null;
         public String sendPostRequest(String requestURL, HashMap<String, String> postDataParams) {
 
             URL url;
@@ -47,6 +49,7 @@ public class RegisterUserClass {
                     BufferedReader br = new BufferedReader(new InputStreamReader(conn.getInputStream()));
                     response = br.readLine();
                     response.trim();
+
                 }
                 else {
                     response="Error Registering";
