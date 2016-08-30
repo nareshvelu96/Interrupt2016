@@ -14,12 +14,9 @@
             android:id="@+id/Card_View"
             android:layout_width="match_parent"
             android:layout_height="300dp"
-            cardview_view:cardCornerRadius="1dp">
-            <ImageView
-                android:src="@drawable/custom_gradient_bg"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:scaleType="fitXY"/>
+            cardview_view:cardCornerRadius="1dp"
+            cardview_view:cardBackgroundColor="@color/primary_light">
+
 
             <LinearLayout
     android:layout_width="match_parent"
