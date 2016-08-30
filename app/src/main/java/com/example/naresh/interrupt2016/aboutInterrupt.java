@@ -25,9 +25,11 @@ public class aboutInterrupt extends Fragment  {
     @Nullable
     @Override
     public View onCreateView(final LayoutInflater inflater, final ViewGroup container, Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
         View view = mFadingHelper.createView(inflater);
 
-                if (mArguments != null){
+
+        if (mArguments != null){
             ImageView img = (ImageView) view.findViewById(R.id.image_header);
             img.setImageResource(mArguments.getInt(ARG_IMAGE_RES));
         }
@@ -35,12 +37,11 @@ public class aboutInterrupt extends Fragment  {
     }
 
 
-
     @Override
     public void onAttach(Context context) {
         super.onAttach(context);
 
-        Activity a = (Activity) context;;
+        Activity a = (Activity) context;
 
 
         mArguments = getArguments();

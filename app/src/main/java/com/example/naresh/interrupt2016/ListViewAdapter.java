@@ -47,7 +47,7 @@ public class ListViewAdapter extends ArrayAdapter<com.example.naresh.interrupt20
         }
 
         holder.eventName.setText(getItem(position).getEvent_name());
-        Typeface fontRobo = Typeface.createFromAsset(getContext().getAssets(), "fonts/CaviarDreams.ttf");
+        Typeface fontRobo = Typeface.createFromAsset(getContext().getAssets(), "fonts/Capture_it.ttf");
         //name.setText(total.toString());
         holder.eventName.setTypeface(fontRobo );
 

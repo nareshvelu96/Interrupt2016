@@ -1,7 +1,9 @@
 package com.example.naresh.interrupt2016;
 
+import android.annotation.TargetApi;
 import android.app.Fragment;
 import android.content.res.Resources;
+import android.graphics.Typeface;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -113,11 +115,17 @@ public class events_fragment extends Fragment {
                 }
 
                 name.setText(event.getEvent_name());
+                Typeface name_font = Typeface.createFromAsset(getActivity().getAssets(), "fonts/Capture_it.ttf");
+                name.setTypeface(name_font);
                 desc.setText(event.getDescription());
+                Typeface content_font = Typeface.createFromAsset(getActivity().getAssets(), "fonts/Existence-Light.otf");
+                desc.setTypeface(content_font );
                 rounds.setText(event.getRounds());
+                rounds.setTypeface(content_font );
                 rules.setText(event.getRules());
+                rules.setTypeface(content_font );
                 sample.setText(event.getSample());
-
+                sample.setTypeface(content_font );
                 draggableView.setVisibility(View.VISIBLE);
 
 

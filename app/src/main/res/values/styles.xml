@@ -20,7 +20,7 @@
         <item name="android:textColor">#FF0000</item>
     </style>
 
-    <color name="card_bg">#ffffff</color>
+    <color name="card_bg">#0288D1</color>
     <color name="text_color">#212121</color>
     <color name="event_bg">#009688</color>
     <color name="event_card">#F57C00</color>
