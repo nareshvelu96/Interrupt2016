@@ -48,6 +48,7 @@ public class aboutInterrupt extends Fragment  {
         Typeface fontRobo2 = Typeface.createFromAsset(getActivity().getAssets(),"fonts/BOMBARD_.ttf");
         textView2.setTypeface(fontRobo2);
 
+
         TextView textView3 = (TextView) view.findViewById(R.id.about_secondary1);
         Typeface fontRobo3 = Typeface.createFromAsset(getActivity().getAssets(),"fonts/DroidSans.ttf");
         textView3.setTypeface(fontRobo3);
@@ -61,13 +62,14 @@ public class aboutInterrupt extends Fragment  {
             img.setImageResource(mArguments.getInt(ARG_IMAGE_RES));
         }
         Button event= (Button)view.findViewById(R.id.onclick_event);
+
+
         event.setClickable(true);
         event.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 android.app.FragmentManager fragmentManager = getFragmentManager();
                 fragmentManager.beginTransaction().replace(R.id.content_frame, new events_fragment()).commit();
-
 
                 //setTitle(navMenuTitles[position]);
 

@@ -117,6 +117,8 @@ public class MainActivity extends AppCompatActivity
             fragmentManager.beginTransaction().replace(R.id.content_frame, new inst()).commit();
         } else if (id == R.id.nav_letsgo) {
             fragmentManager.beginTransaction().replace(R.id.content_frame, new letsgo()).commit();
+        } else if (id == R.id.nav_chat) {
+            fragmentManager.beginTransaction().replace(R.id.content_frame, new ChatActivity()).commit();
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
