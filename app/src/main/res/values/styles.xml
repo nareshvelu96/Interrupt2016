@@ -43,7 +43,7 @@
     <color name="textColorPrimary">#FFFFFF</color>
     <color name="textColorSecondary">#CCCCCC</color>
     <color name="windowBackground">#FFFFFF</color>
-    <color name="navigationBarColor">@color/primary</color>
+    <color name="navigationBarColor">#3E50B4</color>
 
     <color name="list_item_title">#fff</color>
     <color name="list_background">@color/primary</color>
