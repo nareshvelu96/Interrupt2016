@@ -226,7 +226,7 @@
                 android:layout_marginRight="16dp"
                 android:layout_below="@id/feedback"
                 android:textColor="#FFFFFF"
-                fbutton:buttonColor="@color/colorPrimary"
+                fbutton:buttonColor="#004e92"
                 fbutton:shadowEnabled="true"
                 android:textStyle="bold|italic"
                 android:textSize="25dp"

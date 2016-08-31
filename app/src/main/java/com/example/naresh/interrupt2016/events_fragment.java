@@ -95,7 +95,7 @@ public class events_fragment extends Fragment {
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 event event = (event) parent.getAdapter().getItem(position);
                 if (event.getEvent_name().equals("MYB V3.0")) {
-                    image.setImageResource(R.drawable.myb);
+                    image.setImageResource(R.drawable.myb1);
                 } else if (event.getEvent_name().equals("DATA SURFER")) {
                     image.setImageResource(R.drawable.datasurf);
                 } else if (event.getEvent_name().equals("DATA DOSSIER")) {
