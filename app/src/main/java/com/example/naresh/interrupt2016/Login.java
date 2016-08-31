@@ -1,7 +1,9 @@
 package com.example.naresh.interrupt2016;
 
 import android.app.ProgressDialog;
+import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -12,6 +14,9 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import org.json.JSONException;
+import org.json.JSONObject;
+
 import java.util.HashMap;
 
 import butterknife.ButterKnife;
@@ -20,7 +25,7 @@ import butterknife.InjectView;
 public class Login extends AppCompatActivity {
     private static final String TAG = "LoginActivity";
     private static final int REQUEST_SIGNUP = 0;
-    private static final String LOGIN_URL = "http://bhojansvce.16mb.com/interruptlogin.php";
+    private static final String LOGIN_URL = "http://192.168.1.104/app/login.php";
     @InjectView(R.id.input_email) EditText _emailText;
 
     @InjectView(R.id.input_password)    EditText _passwordText;
@@ -153,21 +158,47 @@ public class Login extends AppCompatActivity {
 
         protected void onPostExecute(String s) {
             super.onPostExecute(s);
-            loading.dismiss();
-            if(s.equalsIgnoreCase("success")){
-                Values.is_loggedin=true;
-                Intent intent = new Intent(Login.this,MainActivity.class);
-             //   finish();
-                startActivity(intent);
-            }else{
-                Toast.makeText(Login.this,"Invalid Username or Password",Toast.LENGTH_LONG).show();
+            try {
+                JSONObject jsonobject=new JSONObject(s);
+                String success=jsonobject.getString("success").toString();
+                if(success.equals("1")){
+                    SharedPreferences pref = getSharedPreferences("MyPref", Context.MODE_PRIVATE);
+                    SharedPreferences.Editor  editor = pref.edit();
+
+                    Values.auth_token=jsonobject.getString("auth_token").toString();
+                    Values.id=jsonobject.getString("id").toString();
+                    Values.name=jsonobject.getString("name").toString();
+                    Values.email=jsonobject.getString("email").toString();
+                    Values.phone=jsonobject.getString("phone").toString();
+                    Values.is_loggedin=true;
+                    editor.putString("name", Values.name);
+                    editor.putString("email", Values.email);
+                    editor.putString("phone", Values.phone);
+                    editor.putString("auth_token", Values.auth_token);
+                    editor.putString("id", Values.id);
+                    editor.putBoolean("islogged",true);
+                    editor.commit();
+                    loading.dismiss();
+                    Intent intent = new Intent(Login.this,MainActivity.class);
+
+                    startActivity(intent);
+
+
+                }else{
+                    loading.dismiss();
+                    Toast.makeText(Login.this,"Invalid Username or Password",Toast.LENGTH_LONG).show();
+                }
+            } catch (JSONException e) {
+                e.printStackTrace();
             }
+
+
         }
 
         @Override
         protected String doInBackground(String... params) {
             HashMap<String,String> data = new HashMap<>();
-            data.put("email",params[0]);
+            data.put("uname",params[0]);
             data.put("password",params[1]);
 
             RegisterUserClass ruc = new RegisterUserClass();

@@ -24,7 +24,7 @@ import butterknife.InjectView;
 
 public class Register extends AppCompatActivity {
     private static final String TAG = "SignupActivity";
-    private static final String REGISTER_URL = "http://bhojansvce.16mb.com/register.php";
+    private static final String REGISTER_URL = "http://192.168.1.104/app/register.php";
 
     @InjectView(R.id.name) EditText _nameText;
     @InjectView(R.id.email) EditText _emailText;
@@ -239,11 +239,11 @@ public class Register extends AppCompatActivity {
 
                 HashMap<String, String> data = new HashMap<String,String>();
                 data.put("name",params[0]);
-                data.put("emailid",params[1]);
-                data.put("phone",params[2]);
+                data.put("email",params[1]);
+                data.put("phone_no",params[2]);
                 data.put("password",params[3]);
                 data.put("college",params[4]);
-                data.put("dept",params[5]);
+                data.put("tag","test");
                 data.put("year",params[6]);
 
                 String result = ruc.sendPostRequest(REGISTER_URL,data);

@@ -22,16 +22,7 @@ public Values(Context c){
     is_loggedin=pref.getBoolean("islogged", false);
 
 
-    ismyb=pref.getBoolean("ismyb", false);
-    istabloid=pref.getBoolean("istabloid", false);
-    issynt=pref.getBoolean("issynt", false);
-    istrifacta=pref.getBoolean("istrifacta", false);
-    isbombquad=pref.getBoolean("isbombquad", false);
-    isdumbc=pref.getBoolean("isdumbc", false);
-    islucky=pref.getBoolean("islucky", false);
 
-
-   int a =10;
 
 }
     public Values(){}

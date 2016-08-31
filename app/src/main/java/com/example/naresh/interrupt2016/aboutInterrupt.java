@@ -96,4 +96,19 @@ public class aboutInterrupt extends Fragment  {
 
     }
 
+    @Override
+    public void onAttach(Activity activity) {
+        super.onAttach(activity);
+
+
+        mArguments = getArguments();
+        Drawable actionBarBg = getActivity().getResources().getDrawable(R.drawable.headerbg);
+
+        mFadingHelper = new FadingActionBarHelper()
+                .actionBarBackground(actionBarBg)
+                .headerLayout(R.layout.header)
+                .contentLayout(R.layout.about);
+
+        mFadingHelper.initActionBar(activity);
+    }
 }
