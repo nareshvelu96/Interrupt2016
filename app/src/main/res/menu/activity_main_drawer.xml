@@ -15,11 +15,7 @@
             android:id="@+id/nav_transport"
             android:icon="@drawable/ic_menu_slideshow"
             android:title="Transport" />
-        <item
-            android:id="@+id/nav_why"
-            android:icon="@drawable/ic_menu_manage"
-            android:title="Why App?" />
-        <item
+         <item
             android:id="@+id/nav_map"
             android:icon="@mipmap/ic_map_white_48dp"
             android:title="SVCE Map" />
