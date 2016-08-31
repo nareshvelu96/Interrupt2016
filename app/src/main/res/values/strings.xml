@@ -319,6 +319,15 @@
 
     </string-array>
 
+    <string name="instruction"> 1. The symposium is on September 3rd.\n\n
+    2. There is no registration fee.\n\n
+
+    3. Dress code: Strictly adhere to the dress code given below.\n
+    Boys:  No T-Shirts or shorts.\n
+    Girls: Salwar with dupatta \n\n
+    4. Events commence at 9 am and will close by 2:30 pm.\n\n
+    5. SVCE College transport can be used and you can check the bus number and routes from the “Transport” tab in the app.
+    </string>
 
     <string name="app_name">Interrupt2016</string>
 
