@@ -3,8 +3,13 @@ package com.example.naresh.interrupt2016;
 import android.app.Activity;
 import android.app.Fragment;
 import android.content.Context;
+import android.graphics.drawable.Drawable;
+import android.os.Build;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
+import android.support.v7.app.ActionBar;
+import android.support.v7.app.ActionBarActivity;
+import android.support.v7.app.AppCompatActivity;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -29,6 +34,8 @@ public class aboutInterrupt extends Fragment  {
         View view = mFadingHelper.createView(inflater);
 
 
+
+
         if (mArguments != null){
             ImageView img = (ImageView) view.findViewById(R.id.image_header);
             img.setImageResource(mArguments.getInt(ARG_IMAGE_RES));
@@ -41,17 +48,15 @@ public class aboutInterrupt extends Fragment  {
     public void onAttach(Context context) {
         super.onAttach(context);
 
-        Activity a = (Activity) context;
-
+        AppCompatActivity a = (AppCompatActivity) context;
 
         mArguments = getArguments();
-        int actionBarBg = R.drawable.headerbg;
+        Drawable actionBarBg = getActivity().getResources().getDrawable(R.drawable.headerbg);
 
         mFadingHelper = new FadingActionBarHelper()
                 .actionBarBackground(actionBarBg)
                 .headerLayout(R.layout.header)
                 .contentLayout(R.layout.about);
-
 
         mFadingHelper.initActionBar(a);
 
