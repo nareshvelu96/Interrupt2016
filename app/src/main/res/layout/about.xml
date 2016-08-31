@@ -1,91 +1,122 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content">
-
-    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical"
-        >
-
-        <android.support.v7.widget.CardView
-            xmlns:cardview_view="http://schemas.android.com/apk/res-auto"
-            android:id="@+id/Card_View"
-            android:layout_width="match_parent"
-            android:layout_height="300dp"
-            cardview_view:cardCornerRadius="1dp"
-            cardview_view:cardBackgroundColor="@color/primary_custom">
-
-
-            <LinearLayout
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:backgroundTint="@color/primary_custom"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical">
+    android:background="@color/primary"
+    tools:ignore="MissingPrefix"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto">
 
-
+    <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        card_view:cardBackgroundColor="@color/primary_custom"
+        android:layout_marginBottom="@dimen/cardMarginVertical"
+        android:layout_marginLeft="@dimen/cardMarginHorizontal"
+        android:layout_marginRight="@dimen/cardMarginHorizontal"
+        android:layout_marginTop="@dimen/cardMarginVertical"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="2dp"
+        app:cardPreventCornerOverlap="false"
+        app:contentPadding="0dp">
+        <LinearLayout
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
             <TextView
-                android:paddingTop="10dp"
-                android:layout_width="wrap_content"
-                android:id="@+id/about_title1"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="About Interrupt"
-                android:textStyle="bold|italic"
-                android:layout_gravity="center"
-                android:textSize="34sp"
-                android:textColor="@color/text_color">
-            </TextView>
+                fontPath="fonts/hamburger.TTF"
+                android:textSize="30dp"
+                android:id="@+id/about_title1"
+                android:textColor="@color/white"/>
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="#B6B6B6"
+                android:layout_marginRight="20dp"/>
 
             <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Here we go interrupting a calm day again. Interrupt'15 is back-bigger and better than ever!\n"
-                android:textStyle="bold|italic"
-                android:textColor="@color/secondary_text"
-                android:id="@+id/about_secondary1"
-                android:textSize="24sp">
-
-            </TextView>
-
-            </LinearLayout>
-
-        </android.support.v7.widget.CardView>
-        <android.support.v7.widget.CardView
-            xmlns:cardview_view="http://schemas.android.com/apk/res-auto"
-            android:id="@+id/Card_View1"
-            android:layout_width="match_parent"
-            android:layout_height="300dp"
-            cardview_view:cardCornerRadius="1dp"
-            cardview_view:cardBackgroundColor="@color/primary_custom">
-
-
-            <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:orientation="vertical">
+                fontPath="fonts/hamburger.TTF"
+                android:layout_height="wrap_content"
+                android:text="@string/about_interrupt"
+                android:textSize="18dp"
+                android:id="@+id/about_secondary1"
+                android:textColor="@color/white"/>
+        </LinearLayout>
 
 
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/about_title2"
-                    android:text="Interrupt'15"
-                    android:layout_gravity="center"
-                    android:textStyle="bold|italic"
-                    android:textSize="34sp"
-                    android:textColor="@color/text_color"/>
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/about_secondary2"
-                    android:textSize="24sp"
-                    android:text="Boisterous-one word blah blah"
-                    android:textColor="@color/secondary_text"/>
-            </LinearLayout>
+    </android.support.v7.widget.CardView>
 
-        </android.support.v7.widget.CardView>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/register"
+        android:textColor="#ffffff"
+        android:gravity="center|center_vertical"
+        android:text="Events"
+        android:textSize="25dp"
+        android:layout_gravity="bottom"
+        android:id="@+id/onclick_event"
+        android:layout_weight="1"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_alignParentLeft="true"
 
-    </LinearLayout>
-</ScrollView>
+
+        />
+
+    <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_view1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/cardMarginVertical"
+        android:layout_marginLeft="@dimen/cardMarginHorizontal"
+        android:layout_marginRight="@dimen/cardMarginHorizontal"
+        android:layout_marginTop="@dimen/cardMarginVertical"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="2dp"
+        card_view:cardBackgroundColor="@color/primary_custom"
+        app:cardPreventCornerOverlap="false"
+        app:contentPadding="0dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="10dp">
+            <TextView
+                android:layout_width="match_parent"
+                fontPath="fonts/hamburger.TTF"
+                android:layout_height="wrap_content"
+                android:text="Interrupt'16"
+                android:id="@+id/about_title2"
+                android:textSize="30dp"
+                android:textColor="@color/white"/>
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="#B6B6B6"
+                android:layout_marginRight="20dp"/>
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                fontPath="fonts/hamburger.TTF"
+                android:id="@+id/about_secondary2"
+                android:text="@string/interrupt16"
+                android:textSize="18dp"
+                android:textColor="@color/white"/>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>
