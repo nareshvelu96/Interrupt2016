@@ -51,21 +51,21 @@ public class ListViewAdapter extends ArrayAdapter<com.example.naresh.interrupt20
         holder.eventName.setTypeface(fontRobo );
 
 
-        if (getItem(position).getEvent_name().equals("MYB V3.0")) {
+        if (getItem(position).getEvent_name().equals("MYB V4.0")) {
             holder.eventIcon.setImageResource(R.drawable.myb);
-        }else if (getItem(position).getEvent_name().equals("DATA SURFER")) {
+        }else if (getItem(position).getEvent_name().equals("ARCHIVE UNDERLORDS")) {
             holder.eventIcon.setImageResource(R.drawable.database1);
-        }else if (getItem(position).getEvent_name().equals("DATA DOSSIER")){
+        }else if (getItem(position).getEvent_name().equals("DATA STRUCTURE")){
             holder.eventIcon.setImageResource(R.drawable.datastructures1);
         }else if (getItem(position).getEvent_name().equals("CODE NINJA")) {
             holder.eventIcon.setImageResource(R.drawable.codeninja1);
-        }else if (getItem(position).getEvent_name().equals("PAPIER REMISE")) {
+        }else if (getItem(position).getEvent_name().equals("COGNITION QUEST")) {
             holder.eventIcon.setImageResource(R.drawable.paper1);
-        }else if (getItem(position).getEvent_name().equals("DUMBC")) {
+        }else if (getItem(position).getEvent_name().equals("DON OF LOGIC")) {
             holder.eventIcon.setImageResource(R.drawable.donoflogic1);
-        }else if (getItem(position).getEvent_name().equals("HINT FORAGE")) {
+        }else if (getItem(position).getEvent_name().equals("CODE SPRINT")) {
             holder.eventIcon.setImageResource(R.drawable.onlinecoding1);
-        }else if (getItem(position).getEvent_name().equals("COC")) {
+        }else if (getItem(position).getEvent_name().equals("PICTURESQUE")) {
             holder.eventIcon.setImageResource(R.drawable.photography1);
         }else if (getItem(position).getEvent_name().equals("QUIZZLER")) {
             holder.eventIcon.setImageResource(R.drawable.quizzler);

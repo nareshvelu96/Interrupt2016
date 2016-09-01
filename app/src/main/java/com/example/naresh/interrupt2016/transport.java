@@ -14,6 +14,8 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
 import android.view.inputmethod.InputMethodManager;
 import android.widget.ArrayAdapter;
 import android.widget.AutoCompleteTextView;
@@ -51,6 +53,10 @@ public class transport extends Fragment {
 
         searchBar= (AutoCompleteTextView)rootView.findViewById(R.id.searchBar);
         Search=(Button)rootView.findViewById(R.id.search);
+        final AutoCompleteTextView autoCompleteTextView = (AutoCompleteTextView) rootView.findViewById(R.id.searchBar);
+        final Animation animSlideUp;
+        animSlideUp = AnimationUtils.loadAnimation(getActivity().getApplicationContext(),
+                R.anim.slide_up);
 
 
         //Typeface fontRobo1 = Typeface.createFromAsset(getActivity().getAssets(),"fonts/Roboto-Medium.ttf");
@@ -64,6 +70,7 @@ public class transport extends Fragment {
         Search.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                autoCompleteTextView.startAnimation(animSlideUp);
                 View view2 = getActivity().getCurrentFocus();
                 if (view2 != null) {
                     InputMethodManager inputManager = (InputMethodManager) getActivity().getSystemService(Context.INPUT_METHOD_SERVICE);

@@ -38,9 +38,9 @@ public class Login extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
         ButterKnife.inject(this);
-        Button bt = (Button) findViewById(R.id.btn_login);
+       /* Button bt = (Button) findViewById(R.id.btn_login);
         Typeface fontRobo1 = Typeface.createFromAsset(getAssets(),"fonts/Roboto-Medium.ttf");
-        bt.setTypeface(fontRobo1);
+        bt.setTypeface(fontRobo1);*/
 
         _loginButton.setOnClickListener(new View.OnClickListener() {
 

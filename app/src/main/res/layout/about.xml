@@ -66,7 +66,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@drawable/register"
-        android:textColor="#ffffff"
+        android:textColor="@color/primary_text"
         android:gravity="center|center_vertical"
         android:text="Events"
         android:textSize="25dp"

@@ -94,21 +94,21 @@ public class events_fragment extends Fragment {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 event event = (event) parent.getAdapter().getItem(position);
-                if (event.getEvent_name().equals("MYB V3.0")) {
+                if (event.getEvent_name().equals("MYB V4.0")) {
                     image.setImageResource(R.drawable.myb);
-                } else if (event.getEvent_name().equals("DATA SURFER")) {
+                } else if (event.getEvent_name().equals("ARCHIVE UNDERLORDS")) {
                     image.setImageResource(R.drawable.database1);
-                } else if (event.getEvent_name().equals("DATA DOSSIER")) {
+                } else if (event.getEvent_name().equals("DATA STRUCTURE")) {
                     image.setImageResource(R.drawable.datastructures1);
                 } else if (event.getEvent_name().equals("CODE NINJA")) {
                     image.setImageResource(R.drawable.codeninja1);
-                } else if (event.getEvent_name().equals("PAPIER REMISE")) {
+                } else if (event.getEvent_name().equals("COGNITION QUEST")) {
                     image.setImageResource(R.drawable.paper1);
-                } else if (event.getEvent_name().equals("DUMBC")) {
+                } else if (event.getEvent_name().equals("DON OF LOGIC")) {
                     image.setImageResource(R.drawable.donoflogic1);
-                } else if (event.getEvent_name().equals("HINT FORAGE")) {
+                } else if (event.getEvent_name().equals("CODE SPRINT")) {
                     image.setImageResource(R.drawable.onlinecoding1);
-                } else if (event.getEvent_name().equals("COC")) {
+                } else if (event.getEvent_name().equals("PICTURESQUE")) {
                     image.setImageResource(R.drawable.photography1);
                 } else if (event.getEvent_name().equals("QUIZZLER")) {
                     image.setImageResource(R.drawable.quizzler);

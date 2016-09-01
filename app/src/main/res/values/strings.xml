@@ -319,7 +319,7 @@
 
     </string-array>
 
-    <string name="instruction"> 1. The symposium is on September 3rd.\n\n
+    <string name="instruction"> 1. The symposium is on October 1st.\n\n
     2. There is no registration fee.\n\n
 
     3. Dress code: Strictly adhere to the dress code given below.\n
@@ -336,7 +336,7 @@
 
     <string name="action_settings">Settings</string>
     <string-array name="myb">
-        <item>MYB V3.0</item>
+        <item>MYB V4.0</item>
         <item>I am the person anybody turns to for suggestions(friends:Where  can we go? U: where we always do... friends: wonderful da!!).\n\n
  I can tackle my way out of any situation logically(If you had a pizza with crust thickness \'A\' and radius \'Z\', what\'s the volume of the pizza?  .\n\n
 I do a lot of non- technical scenario-based thinking almost always seemingly paradoxical.(eg. Did the teacher kick me out because I was talking when he was talking or because I did not talk when he wanted me to.).\n\n
@@ -365,7 +365,7 @@ What am I?</item>
     </string-array>
 
     <string-array name="datasurfer">
-        <item>DATA SURFER</item>
+        <item>DATA STRUCTURE</item>
         <item><p>Do you think you can find hidden words? Do you think your letters are better organised than anybody else’s? Do you believe in logical reasoning  and forming words using letters from patterns?
 
 If you are Wordsworth or even 10% his words’ worth,  this is the right event for
@@ -400,7 +400,7 @@ D) for none of above situation\n\n</item>
     </string-array>
 
     <string-array name="datadoss">
-        <item>DATA DOSSIER</item>
+        <item>ARCHIVE UNDERLORDS</item>
         <item>Search, think, dig and mine until you strike data, the “Diamond of the millennia”. \n\n
 “Can you read tables?”. You CAN’T say NO. ‘cause time tables have tested us through and through. All the time. Now its TIME for TABLES to be IN something . Rather it is time for everything to be in tables. They extract your resources, time and energy. Its time for REVENGE.  So get ready to comprehend and extract from tables. All set? Sweet revenge! There you are! Best offer. </item>
         <item>1)Query round:\n\n
@@ -451,7 +451,7 @@ is a function declaration (because it is not inside any function).</item>
     </string-array>
 
     <string-array name="paperRe">
-        <item>PAPIER REMISE</item>
+        <item>COGNITION QUEST</item>
         <item>Are you happier knowing the working of Napier bones? Do you have a knack at discovery like Indiana Jones? Then bring it out coherently in the form of a structured writing aka “paper”. Though all your thoughts are welcome, there are a select few topics in which your thought outflow is gladly welcome. </item>
         <item>Will be updated soon.check out our website for quick updates\n\n www.interrupt15.in</item>
         <item>1) Abstract must be sent by\n\n
@@ -503,7 +503,7 @@ than words. So, seeing how there were about 1500 students who participated from
 across the country, this event was a huge success.</string>
 
     <string-array name="dumbc">
-        <item>DUMBC</item>
+        <item>DON OF LOGIC</item>
         <item>Bring out the geek in you and introduce them to the great actor that you are! This is your chance to
 
 show how good an actor and how smart a person you are. We’ve got some exciting rounds and fun
@@ -542,7 +542,7 @@ points.</p></item>
 
 
     <string-array name="hintforage">
-        <item>HINT FORAGE</item>
+        <item>CODE SPRINT</item>
         <item>Puzzles and hints!!  Sate your hunger for quests and teasers. Get lost in the interaction of fuzziness and logic. Do you think you can handle the tempest?\n\n
 Emerge victorious!!  </item>
         <item>1. Puzzles, riddles and a lot of other stuff. ( other stuff::The things done when boredom threatens your life).\n\n
@@ -563,7 +563,7 @@ overall system, can you find out the missing last tile?</item>
 
 
     <string-array name="coc">
-        <item>COC</item>
+        <item>PICTURESQUE</item>
         <item>Class FindWhatsOnYourMind{\n
 
 Enum StatesEveryday{ \n
