@@ -23,7 +23,7 @@ import java.util.LinkedList;
 public class events_fragment extends Fragment {
     private ListView listView;
     private ImageView image;
-    private TextView name, desc, rounds, rules, sample;
+    private TextView name, type, desc, rounds, rules, sample;
     private DraggableView draggableView;
 
     private LinkedList<event> events;
@@ -56,15 +56,15 @@ public class events_fragment extends Fragment {
         String[] quiz = res.getStringArray(R.array.quizzler);
 
         events = new LinkedList<event>();
-        events.add(new event(myb[0], myb[1], myb[2], myb[3], myb[4]));
-        events.add(new event(datas[0], datas[1], datas[2], datas[3], datas[4]));
-        events.add(new event(dataD[0], dataD[1], dataD[2], dataD[3], dataD[4]));
-        events.add(new event(con[0], con[1], con[2], con[3], con[4]));
-        events.add(new event(paperR[0], paperR[1], paperR[2], paperR[3], paperR[4]));
-        events.add(new event(hintf[0], hintf[1], hintf[2], hintf[3], hintf[4]));
-        events.add(new event(dumbc[0], dumbc[1], dumbc[2], dumbc[3], dumbc[4]));
-        events.add(new event(coc[0], coc[1], coc[2], coc[3], coc[4]));
-        events.add(new event(quiz[0], quiz[1], quiz[2], quiz[3], quiz[4]));
+        events.add(new event(myb[0], myb[1], myb[2], myb[3], myb[4], myb[5]));
+        events.add(new event(datas[0], datas[1], datas[2], datas[3], datas[4], datas[5]));
+        events.add(new event(dataD[0], dataD[1], dataD[2], dataD[3], dataD[4], dataD[5]));
+        events.add(new event(con[0], con[1], con[2], con[3], con[4], con[5]));
+        events.add(new event(paperR[0], paperR[1], paperR[2], paperR[3], paperR[4], paperR[5]));
+        events.add(new event(hintf[0], hintf[1], hintf[2], hintf[3], hintf[4], hintf[5]));
+        events.add(new event(dumbc[0], dumbc[1], dumbc[2], dumbc[3], dumbc[4], dumbc[5]));
+        events.add(new event(coc[0], coc[1], coc[2], coc[3], coc[4], coc[5]));
+        events.add(new event(quiz[0], quiz[1], quiz[2], quiz[3], quiz[4], quiz[5]));
         //create - attach adapter to listview
         adapter = new ListViewAdapter(getActivity(), R.layout.item_list_events, events);
         listView.setAdapter(adapter);
@@ -75,6 +75,7 @@ public class events_fragment extends Fragment {
         listView = (ListView)view.findViewById(R.id.list_view);
         image = (ImageView) view.findViewById(R.id.image);
         name = (TextView) view.findViewById(R.id.event_name);
+        type = (TextView) view.findViewById(R.id.event_type);
         desc = (TextView) view.findViewById(R.id.desc);
         rounds = (TextView) view.findViewById(R.id.rounds);
         rules = (TextView) view.findViewById(R.id.rules);
@@ -117,6 +118,8 @@ public class events_fragment extends Fragment {
                 name.setText(event.getEvent_name());
                 Typeface name_font = Typeface.createFromAsset(getActivity().getAssets(), "fonts/Capture_it.ttf");
                 name.setTypeface(name_font);
+                type.setText(event.getEvent_type());
+                type.setTypeface(name_font);
                 desc.setText(event.getDescription());
                 Typeface content_font = Typeface.createFromAsset(getActivity().getAssets(), "fonts/Existence-Light.otf");
                 desc.setTypeface(content_font );
