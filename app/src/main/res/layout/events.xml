@@ -16,7 +16,7 @@
         android:id="@+id/draggable_view"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        draggable_view:enable_minimized_horizontal_alpha_effect="true"
+        draggable_view:enable_minimized_horizontal_alpha_effect="false"
         android:nestedScrollingEnabled="true"
         draggable_view:top_view_height="200dp"
         draggable_view:top_view_id="@+id/image"
@@ -30,6 +30,7 @@
 
         <ImageView
             android:id="@+id/image"
+            android:padding="5dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@color/white" />
@@ -42,7 +43,6 @@
                 android:id="@+id/ll"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-
                 android:orientation="vertical">
                 <TextView
                     android:id="@+id/event_name"
@@ -52,6 +52,7 @@
                     android:gravity="center"
                     android:textSize="@dimen/title_text_size"
                     android:textColor="@color/card_bg" />
+
                 <TextView
                     android:id="@+id/event_type"
                     android:layout_width="match_parent"

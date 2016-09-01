@@ -12,6 +12,7 @@ import android.widget.AdapterView;
 import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.github.pedrovgs.DraggableView;
 
@@ -25,7 +26,7 @@ public class events_fragment extends Fragment {
     private ImageView image;
     private TextView name, type, desc, rounds, rules, sample;
     private DraggableView draggableView;
-
+     int check=0;
     private LinkedList<event> events;
     private ListViewAdapter adapter;
     View view;
@@ -35,8 +36,6 @@ public class events_fragment extends Fragment {
         view = inflater.inflate(R.layout.events,container,false);
 
         locateView();
-
-
         setListViewAdapter();
         listView.setOnItemClickListener(onItemClickListener());
         return view;
@@ -68,6 +67,8 @@ public class events_fragment extends Fragment {
         //create - attach adapter to listview
         adapter = new ListViewAdapter(getActivity(), R.layout.item_list_events, events);
         listView.setAdapter(adapter);
+        Toast.makeText(getActivity(),"Click event icons for event information.",Toast.LENGTH_SHORT).show();
+
 
     }
 
@@ -81,7 +82,6 @@ public class events_fragment extends Fragment {
         rules = (TextView) view.findViewById(R.id.rules);
         sample = (TextView) view.findViewById(R.id.sample);
         draggableView = (DraggableView) view.findViewById(R.id.draggable_view);
-
         //set some feature for draggable panel
         draggableView.setVisibility(View.GONE);
         draggableView.setClickToMaximizeEnabled(true);
@@ -114,7 +114,6 @@ public class events_fragment extends Fragment {
                 } else if (event.getEvent_name().equals("QUIZZLER")) {
                     image.setImageResource(R.drawable.quizzler);
                 }
-
                 name.setText(event.getEvent_name());
                 Typeface name_font = Typeface.createFromAsset(getActivity().getAssets(), "fonts/Capture_it.ttf");
                 name.setTypeface(name_font);
@@ -131,8 +130,11 @@ public class events_fragment extends Fragment {
                 sample.setTypeface(content_font );
                 draggableView.setVisibility(View.VISIBLE);
 
-
                 //restore draggable view height
+           if(check==0)
+{Toast.makeText(getActivity(),"Swipe down to minimize",Toast.LENGTH_SHORT).show();
+ check++;
+}
                 draggableView.maximize();
             }
         };
