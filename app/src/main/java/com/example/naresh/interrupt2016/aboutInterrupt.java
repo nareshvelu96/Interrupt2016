@@ -63,6 +63,9 @@ public class aboutInterrupt extends Fragment  {
         }
         Button event= (Button)view.findViewById(R.id.onclick_event);
 
+        Typeface fontRobo = Typeface.createFromAsset(getActivity().getAssets(),"fonts/Roboto-Medium.ttf");
+        event.setTypeface(fontRobo);
+
 
         event.setClickable(true);
         event.setOnClickListener(new View.OnClickListener() {

@@ -95,21 +95,21 @@ public class events_fragment extends Fragment {
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 event event = (event) parent.getAdapter().getItem(position);
                 if (event.getEvent_name().equals("MYB V3.0")) {
-                    image.setImageResource(R.drawable.myb1);
+                    image.setImageResource(R.drawable.myb);
                 } else if (event.getEvent_name().equals("DATA SURFER")) {
-                    image.setImageResource(R.drawable.datasurf);
+                    image.setImageResource(R.drawable.database1);
                 } else if (event.getEvent_name().equals("DATA DOSSIER")) {
-                    image.setImageResource(R.drawable.datados);
+                    image.setImageResource(R.drawable.datastructures1);
                 } else if (event.getEvent_name().equals("CODE NINJA")) {
-                    image.setImageResource(R.drawable.codeninja);
+                    image.setImageResource(R.drawable.codeninja1);
                 } else if (event.getEvent_name().equals("PAPIER REMISE")) {
-                    image.setImageResource(R.drawable.paperr);
+                    image.setImageResource(R.drawable.paper1);
                 } else if (event.getEvent_name().equals("DUMBC")) {
-                    image.setImageResource(R.drawable.dumbcport);
+                    image.setImageResource(R.drawable.donoflogic1);
                 } else if (event.getEvent_name().equals("HINT FORAGE")) {
-                    image.setImageResource(R.drawable.hint);
+                    image.setImageResource(R.drawable.onlinecoding1);
                 } else if (event.getEvent_name().equals("COC")) {
-                    image.setImageResource(R.drawable.clashofcoders);
+                    image.setImageResource(R.drawable.photography1);
                 } else if (event.getEvent_name().equals("QUIZZLER")) {
                     image.setImageResource(R.drawable.quizzler);
                 }

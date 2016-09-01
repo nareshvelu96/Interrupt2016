@@ -4,6 +4,7 @@ import android.app.Fragment;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.graphics.Typeface;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.view.LayoutInflater;
@@ -23,6 +24,9 @@ public class letsgo extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         rootView = inflater.inflate(R.layout.letsgo, container, false);
         Button bt = (Button) rootView.findViewById(R.id.btn);
+        Typeface fontRobo1 = Typeface.createFromAsset(getActivity().getAssets(),"fonts/Roboto-Medium.ttf");
+        bt.setTypeface(fontRobo1);
+
         bt.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view){

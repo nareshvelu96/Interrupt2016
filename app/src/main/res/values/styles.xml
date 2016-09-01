@@ -11,6 +11,8 @@
         <item name="colorControlNormal">#c5c5c5</item>
         <item name="colorControlActivated">@color/accent</item>
         <item name="colorControlHighlight">@color/accent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
     </style>
 
     <style name="AppTheme.NoActionBar">
@@ -37,6 +39,7 @@
     <color name="event_card">#F57C00</color>
 
     <color name="color_primary_light">#009688</color>
+    <color name="toolbar">#d3d3d3</color>
 
 
 

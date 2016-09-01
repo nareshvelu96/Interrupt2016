@@ -52,21 +52,21 @@ public class ListViewAdapter extends ArrayAdapter<com.example.naresh.interrupt20
 
 
         if (getItem(position).getEvent_name().equals("MYB V3.0")) {
-            holder.eventIcon.setImageResource(R.drawable.myb1);
+            holder.eventIcon.setImageResource(R.drawable.myb);
         }else if (getItem(position).getEvent_name().equals("DATA SURFER")) {
-            holder.eventIcon.setImageResource(R.drawable.datasurf);
+            holder.eventIcon.setImageResource(R.drawable.database1);
         }else if (getItem(position).getEvent_name().equals("DATA DOSSIER")){
-            holder.eventIcon.setImageResource(R.drawable.datados);
+            holder.eventIcon.setImageResource(R.drawable.datastructures1);
         }else if (getItem(position).getEvent_name().equals("CODE NINJA")) {
-            holder.eventIcon.setImageResource(R.drawable.codeninja);
+            holder.eventIcon.setImageResource(R.drawable.codeninja1);
         }else if (getItem(position).getEvent_name().equals("PAPIER REMISE")) {
-            holder.eventIcon.setImageResource(R.drawable.paperr);
+            holder.eventIcon.setImageResource(R.drawable.paper1);
         }else if (getItem(position).getEvent_name().equals("DUMBC")) {
-            holder.eventIcon.setImageResource(R.drawable.dumbcport);
+            holder.eventIcon.setImageResource(R.drawable.donoflogic1);
         }else if (getItem(position).getEvent_name().equals("HINT FORAGE")) {
-            holder.eventIcon.setImageResource(R.drawable.hint);
+            holder.eventIcon.setImageResource(R.drawable.onlinecoding1);
         }else if (getItem(position).getEvent_name().equals("COC")) {
-            holder.eventIcon.setImageResource(R.drawable.clashofcoders);
+            holder.eventIcon.setImageResource(R.drawable.photography1);
         }else if (getItem(position).getEvent_name().equals("QUIZZLER")) {
             holder.eventIcon.setImageResource(R.drawable.quizzler);
         }

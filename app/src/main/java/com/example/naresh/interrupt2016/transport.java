@@ -5,6 +5,7 @@ import android.app.ProgressDialog;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.graphics.Typeface;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -50,6 +51,10 @@ public class transport extends Fragment {
 
         searchBar= (AutoCompleteTextView)rootView.findViewById(R.id.searchBar);
         Search=(Button)rootView.findViewById(R.id.search);
+
+
+        //Typeface fontRobo1 = Typeface.createFromAsset(getActivity().getAssets(),"fonts/Roboto-Medium.ttf");
+        //Search.setTypeface(fontRobo1);
 
 
         String[] stops = getResources().getStringArray(R.array.stops);

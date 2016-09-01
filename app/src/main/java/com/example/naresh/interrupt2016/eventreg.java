@@ -73,7 +73,7 @@ public class eventreg extends Fragment {
 
 
         final Button button = (Button) view.findViewById(R.id.register);
-        Typeface fontRobo11 = Typeface.createFromAsset(getActivity().getAssets(),"fonts/Caviar_Dreams_Bold.ttf");
+        Typeface fontRobo11 = Typeface.createFromAsset(getActivity().getAssets(),"fonts/Roboto-Medium.ttf");
         button.setTypeface(fontRobo11);
         button.setOnClickListener(new View.OnClickListener() {
             @Override
