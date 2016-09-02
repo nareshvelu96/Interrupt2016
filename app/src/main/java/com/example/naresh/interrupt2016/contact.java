@@ -4,6 +4,7 @@ import android.app.Fragment;
 import android.content.Context;
 import android.content.Intent;
 import android.content.pm.PackageManager;
+import android.graphics.Typeface;
 import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
@@ -12,6 +13,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageButton;
+import android.widget.TextView;
 
 import info.hoang8f.widget.FButton;
 
@@ -27,6 +29,9 @@ public class contact extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         view = inflater.inflate(R.layout.contact, container, false);
 
+
+
+
         ImageButton call1, call2, call3, call4;
 
         call1 = (ImageButton) view.findViewById(R.id.call1);
@@ -38,7 +43,7 @@ public class contact extends Fragment {
         call1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                String numberToDial = "tel:" + "9043567123";
+                String numberToDial = "tel:" + "9842092575";
                 startActivity(new Intent(Intent.ACTION_DIAL, Uri.parse(numberToDial)));
 
 
@@ -57,7 +62,7 @@ public class contact extends Fragment {
         call3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                String numberToDial = "tel:" + "9043567123";
+                String numberToDial = "tel:" + "9444208726";
                 startActivity(new Intent(Intent.ACTION_DIAL, Uri.parse(numberToDial)));
 
 
@@ -66,7 +71,7 @@ public class contact extends Fragment {
         call4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                String numberToDial = "tel:" + "9842092575";
+                String numberToDial = "tel:" + "8754418378";
                 startActivity(new Intent(Intent.ACTION_DIAL, Uri.parse(numberToDial)));
 
 

@@ -52,11 +52,11 @@ public class MainActivity extends AppCompatActivity
                         "\n" +
                         "Organized be Association of Computer Engineering and Department of CSE , SVCE.\n" +
                         "\n" +
-                        "Get Ready to Get Interrupted on September 3rd\n" +
+                        "Get Ready to Get Interrupted on October 1st\n" +
                         "\n" +
-                        "Also, visit Web - www.interrupt15.in and Facebook page -\n" +
+                        "Also, visit Web - www.interrupt16.in and Facebook page -\n" +
                         "\n" +
-                        "facebook.com/svceinterrupt\nDownload the Interrupt15 app from\nhttps://play.google.com/store/apps/details?id=in.interrupt.android";
+                        "facebook.com/svceinterrupt\nDownload the Interrupt app from\nhttps://play.google.com/store/apps/details?id=in.interrupt.android";
                 sharingIntent.putExtra(android.content.Intent.EXTRA_SUBJECT, "INTERRUPT");
                 sharingIntent.putExtra(android.content.Intent.EXTRA_TEXT, shareBody);
                 startActivity(Intent.createChooser(sharingIntent, "Share via"));

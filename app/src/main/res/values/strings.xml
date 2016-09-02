@@ -319,6 +319,9 @@
 
     </string-array>
 
+    <string name="harmony_sponsor"><a href="http://harmonyhomesonline.com/">Harmony Residences Pvt Ltd ©</a></string>
+    <string name="cooper_sponsor"><a href="http://www.cooperelevators.com/">Cooper Elevators (India) Pvt Ltd</a></string>
+
     <string name="instruction"> 1. The symposium is on October 1st.\n\n
     2. There is no registration fee.\n\n
 
@@ -422,10 +425,11 @@ Cipher\n\n </item>
 14. After you have submitted the soft copy, judges will go through your material and\nif you are shortlisted to give the presentation you will be notified.\n\n</item>
 
     </string-array>
-<string name="about_interrupt">Webster’s Dictionary defines the word \‘Interrupt\’ as \‘to break off or cause to cease, as in the middle of something\’.\n Computer scientists define \‘Interrupt\’ as ‘a hardware signal that breaks the flow of program execution\nand transfers control to a predetermined storage location so that another procedure\ncan be followed or a new operation carried out\’,\nbut at SVCE, we define Interrupt simply as THE place to be for anyone with a passion for CS.\n\n Interrupt has had students marking their calendars for years now and this year it\’s back and bigger than ever!\nAre you the Don of Logic? Can you make databases dance to your tunes?\nOr is being a Code Ninja more your style? Join us at SVCE on October 1st and find out!\n\n
+<string name="about_interrupt">Webster\’s Dictionary defines the word ‘Interrupt’ as ”to break off or cause to cease, as in the middle of something”.\nComputer scientists define ‘Interrupt’ as ”A hardware signal that breaks the flow of program execution and transfers control\nto a predetermined storage location so that another procedure can be followed or a new operation carried out”, but at SVCE, we define Interrupt simply as THE place to be for anyone with a passion for CS.\n\nInterrupt has had students marking their calendars for years now and this year it\’s back and bigger than ever!\nAre you the Don of Logic? Can you make databases dance to your tunes?\nOr is being a Code Ninja more your style? Join us at SVCE on October 1st and find out!\n\n
 Keep up with all the Interrupt news!\n
-Website: insert link\n
-App: insert link
+Website: interrupt16.in\n
+
+
     </string>
 <string name="interrupt16">‘Boisterous’-One word that describes Interrupt’14 best. As always, the symposium
 
