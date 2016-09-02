@@ -55,15 +55,15 @@ public class events_fragment extends Fragment {
         String[] quiz = res.getStringArray(R.array.quizzler);
 
         events = new LinkedList<event>();
-        events.add(new event(myb[0], myb[1], myb[2], myb[3], myb[4], myb[5]));
-        events.add(new event(datas[0], datas[1], datas[2], datas[3], datas[4], datas[5]));
-        events.add(new event(dataD[0], dataD[1], dataD[2], dataD[3], dataD[4], dataD[5]));
-        events.add(new event(con[0], con[1], con[2], con[3], con[4], con[5]));
-        events.add(new event(paperR[0], paperR[1], paperR[2], paperR[3], paperR[4], paperR[5]));
-        events.add(new event(hintf[0], hintf[1], hintf[2], hintf[3], hintf[4], hintf[5]));
-        events.add(new event(dumbc[0], dumbc[1], dumbc[2], dumbc[3], dumbc[4], dumbc[5]));
-        events.add(new event(coc[0], coc[1], coc[2], coc[3], coc[4], coc[5]));
-        events.add(new event(quiz[0], quiz[1], quiz[2], quiz[3], quiz[4], quiz[5]));
+        events.add(new event(myb[0], myb[1], myb[2], myb[3]));
+        events.add(new event(datas[0], datas[1], datas[2], datas[3]));
+        events.add(new event(dataD[0], dataD[1], dataD[2], dataD[3]));
+        events.add(new event(con[0], con[1], con[2], con[3]));
+        events.add(new event(paperR[0], paperR[1], paperR[2], paperR[3]));
+        events.add(new event(hintf[0], hintf[1], hintf[2], hintf[3]));
+        events.add(new event(dumbc[0], dumbc[1], dumbc[2], dumbc[3]));
+        events.add(new event(coc[0], coc[1], coc[2], coc[3]));
+        events.add(new event(quiz[0], quiz[1], quiz[2], quiz[3]));
         //create - attach adapter to listview
         adapter = new ListViewAdapter(getActivity(), R.layout.item_list_events, events);
         listView.setAdapter(adapter);
@@ -79,8 +79,6 @@ public class events_fragment extends Fragment {
         type = (TextView) view.findViewById(R.id.event_type);
         desc = (TextView) view.findViewById(R.id.desc);
         rounds = (TextView) view.findViewById(R.id.rounds);
-        rules = (TextView) view.findViewById(R.id.rules);
-        sample = (TextView) view.findViewById(R.id.sample);
         draggableView = (DraggableView) view.findViewById(R.id.draggable_view);
         //set some feature for draggable panel
         draggableView.setVisibility(View.GONE);
@@ -97,7 +95,7 @@ public class events_fragment extends Fragment {
                 event event = (event) parent.getAdapter().getItem(position);
                 if (event.getEvent_name().equals("MYB V4.0")) {
                     image.setImageResource(R.drawable.myb);
-                } else if (event.getEvent_name().equals("ARCHIVE UNDERLORDS")) {
+                } else if (event.getEvent_name().equals("GAME OF ARCHIVES")) {
                     image.setImageResource(R.drawable.database1);
                 } else if (event.getEvent_name().equals("DATA STRUCTURE")) {
                     image.setImageResource(R.drawable.datastructures1);
@@ -120,14 +118,10 @@ public class events_fragment extends Fragment {
                 type.setText(event.getEvent_type());
                 type.setTypeface(name_font);
                 desc.setText(event.getDescription());
-                Typeface content_font = Typeface.createFromAsset(getActivity().getAssets(), "fonts/Existence-Light.otf");
+                Typeface content_font = Typeface.createFromAsset(getActivity().getAssets(), "fonts/Roboto-Light.ttf");
                 desc.setTypeface(content_font );
                 rounds.setText(event.getRounds());
                 rounds.setTypeface(content_font );
-                rules.setText(event.getRules());
-                rules.setTypeface(content_font );
-                sample.setText(event.getSample());
-                sample.setTypeface(content_font );
                 draggableView.setVisibility(View.VISIBLE);
 
                 //restore draggable view height

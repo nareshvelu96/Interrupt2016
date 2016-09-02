@@ -6,19 +6,21 @@ package com.example.naresh.interrupt2016;
 public class event {
 
     private String event_name;
-    private String rules;
-    private String sample;
+    private String event_type;
     private String description;
     private String rounds;
-    private String event_type;
 
-    public event(String event_name, String event_type, String rules, String sample, String description, String rounds) {
+
+
+
+    public event(String event_name, String event_type, String description, String rounds) {
         this.event_name = event_name;
         this.event_type = event_type;
-        this.sample = sample;
-        this.rules = rules;
         this.description = description;
         this.rounds = rounds;
+
+
+
 
     }
     public String getEvent_name() {
@@ -27,14 +29,6 @@ public class event {
 
     public String getEvent_type() { return event_type;}
 
-    public String getRules() {
-        return rules;
-    }
-
-    public String getSample() {
-        return sample;
-    }
-
     public String getDescription() {
         return description;
     }
@@ -42,4 +36,9 @@ public class event {
     public String getRounds() {
         return rounds;
     }
+
+
+
+
+
 }

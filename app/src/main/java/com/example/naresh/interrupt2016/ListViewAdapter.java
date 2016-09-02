@@ -53,7 +53,7 @@ public class ListViewAdapter extends ArrayAdapter<com.example.naresh.interrupt20
 
         if (getItem(position).getEvent_name().equals("MYB V4.0")) {
             holder.eventIcon.setImageResource(R.drawable.myb);
-        }else if (getItem(position).getEvent_name().equals("ARCHIVE UNDERLORDS")) {
+        }else if (getItem(position).getEvent_name().equals("GAME OF ARCHIVES")) {
             holder.eventIcon.setImageResource(R.drawable.database1);
         }else if (getItem(position).getEvent_name().equals("DATA STRUCTURE")){
             holder.eventIcon.setImageResource(R.drawable.datastructures1);

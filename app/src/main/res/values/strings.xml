@@ -338,83 +338,48 @@
     <string-array name="myb">
         <item>MYB V4.0</item>
         <item>On Site Event</item>
-        <item>I am the person anybody turns to for suggestions(friends:Where  can we go? U: where we always do... friends: wonderful da!!).\n\n
- I can tackle my way out of any situation logically(If you had a pizza with crust thickness \'A\' and radius \'Z\', what\'s the volume of the pizza?  .\n\n
-I do a lot of non- technical scenario-based thinking almost always seemingly paradoxical.(eg. Did the teacher kick me out because I was talking when he was talking or because I did not talk when he wanted me to.).\n\n
-Do you know the art of “SAMALIFICATION?”( for those of you who don’t know what it means,  don’t fret, it is something you do during viva to the external!)\n\n
-If you do at least one of the above, why are you wasting time reading?\n\n
-REGISTER NOW!. </item>
-        <item>
-1. Personality-based sentimental analysis \n
-(In app and on spot only, pen and paper also)\n
-(Q::Do you forgive an offender or will you take revenge?\n A::Never mind, both are right). (option c: pat-slap (whack!!):P)\n\n
-2. Guess the product!!(just make the CONNEXION)\n\n
-3. What’s business without some gamble? Gear up to be nimble; Don’t tremble, for you have full rights to ramble!!\n\n
-DumbC+ rapid fire+ puzzles</item>
-
-        <item>1. Download our app\n\n
-2.  Neenga vanda mattum podum!!!\n\n
-3. 2 members max. Individual contestants are also\t\t welcome.</item>
-        <item>I am in heaven but not in hell.\n
-
-I’m in the devil but not in god.\n
-
-I’m in the river but not in the sea.\n
-
-What am I?</item>
+        <item>It’s that time of the year when mid-season sales pop up.\n\nAs brands go all out, marketing their product, you fall prey to buying the 500th pair of ripped jeans,which you might not\nneed, only because of the innumerable times that you watched the advertisement on television.\nThis is probably the case with everyone, but are you one of the few who convinces people into buying that product? Do you have the skills to lay out an attractive trap, luring customers to choose your company?\n\nDo you have the gift of the gab?\n\nIf you think you do, we would say come and show us at MYB event at Interrupt!\n        </item>
+        <item>Round 1:\tWritten test.\n
+A written test will be conducted to test the logical and analytical skills. It would also gauge your personality.\n\n
+Round 2:\tTaboo.\n
+Player gets 1 word to describe to the team. 5 restricted words that the player CANNOT use while describing.\nPoints will be reduced if any of the restricted words are used. Time limit of 90 seconds.\n\n
+Round 3:\tMarketing\n
+A team is given a product, and asked to make a sketch to advertise their product with a quote. Most innovative team wins.\n\n</item>
 
     </string-array>
 
     <string-array name="datasurfer">
         <item>DATA STRUCTURE</item>
         <item>On Site Event</item>
-        <item><p>Do you think you can find hidden words? Do you think your letters are better organised than anybody else’s? Do you believe in logical reasoning  and forming words using letters from patterns?
 
-If you are Wordsworth or even 10% his words’ worth,  this is the right event for
+        <item>What is data? Is it letters? Is it numbers?\nIs it a combination of both? Or is it something completely abstract?\nWell, everything counts as data. Right from alphabets to the copies of oxford dictionary, from the number of times your cat sneezed to the various cat videos\non YouTube everything is data.\nSo how do we store data?\nCan you visualize structures to store data?\nDoes your brain automatically link nodes in the form of lists\nor does it make it more complex by branching? If you can\ndo that, then can you translate those diagrams into segments of code? \n\nCome and try your hand at the data structures event.        </item>
 
-you. Mind you, the only language you need to know is a little English and certain
-
-computer science terms( The latter only for extra points). So feel free and jump in
-
-to indulge, guess and talk gibberish in the best possible ways. </p></item>
-
-        <item>\t1.Application based data structures( NOT QUIZ, on spot only but in app{we are in
-
-a green movement,you see :P})\n\n
-2.Word Search (from data structures)\n\t\n
-
-3.”Sethan sivanandi” round (dare to find out).</item>
-        <item> \t 1. Download our app\n\t\n\t
- 2. A Very Basic knowledge on basic data\n\t structures (arrays, stack, queues, list and
-
-\n\t trees) CODING NOT NECESSARY.\n\n\t
-
-</item>
-        <item>1. Arrays are best data structures\n\n
-
-A) for relatively permanent collections of data\n\n
-
-B) for the size of the structure and the data in the structure are constantly changing\n\n
-
-C) for both of above situation\n\n
-D) for none of above situation\n\n</item>
+        <item>Round 1\nYou have 20 minutes to answer 20 questions. Qualifiers will move on to the next round.\n\nRound 2\nThis is a surprise round but prepare yourself for some hardcore coding.
+        </item>
 
     </string-array>
 
     <string-array name="datadoss">
-        <item>ARCHIVE UNDERLORDS</item>
+        <item>GAME OF ARCHIVES</item>
         <item>On Site Event</item>
-        <item>Search, think, dig and mine until you strike data, the “Diamond of the millennia”. \n\n
-“Can you read tables?”. You CAN’T say NO. ‘cause time tables have tested us through and through. All the time. Now its TIME for TABLES to be IN something . Rather it is time for everything to be in tables. They extract your resources, time and energy. Its time for REVENGE.  So get ready to comprehend and extract from tables. All set? Sweet revenge! There you are! Best offer. </item>
-        <item>1)Query round:\n\n
-Round one is querying on-site on databases already created.\n\n
-2)Story round:Analyze the data and form a story out of it. The best story bags the prize. \n\n </item>
-        <item>1) A knowledge of the basic MySQL queries(select, insert, update, delete, show ,create)[Don’t bother with triggers procedures and functions much]\n\n
-2)No need to query at all for round two.\n\n
-3) Team of 2 or 3 is allowed.</item>
-        <item>Prepare a bill showing item details and the price such that he eats the maximum number of
+        <item>
+Imagine you’re watching an episode of Sherlock. What happens in every case?\nEvidences and red herrings pop up and we try to solve the case along with Sherlock and Watson.\nIn the end you’d have noticed what cracks the case would be the seemingly harmless scribble\non the book which lies open carelessly during the time of murder.\nEvery piece of information out there provides clues to the most complex problems.\nRecorded details of the past prove to be the ultimate evidence in the present.\n
+So do you have what it takes to store valuable information?\n Tables are a tool and an archive is a library of data.\nDo you have what it takes to become a DBA?\n
+Here’s an opportunity you wouldn’t want to miss!\nPut your database skills to the best use and show who’s the boss.\nCreate tables that could change the way we perceive and extract information.\nNormalize your data to achieve supreme efficiency.\nThe game is going to be an intense one.\nAre you ready to battle it out in a game of archives?Come, show it at Interrupt!\n
+</item>
+        <item>1. Query Round:\n
+This is the qualifying round that takes place on site.\nJust with some queries and you could be part of the epic battle.\n\n
 
-items and still pays only between 1000 and 1500.</item>
+2. Scenario Round:\n
+
+Here’s where the real challenge lies.\nCreate the apt database for the scenario we give and add your personal streak to it.\nAchieve perfection by normalizing it.\n\nRULES:\n
+
+1. Basic knowledge of MySQL queries is expected (select, insert, create, etc.).\nTo be the best of the pack some additional concepts would do you good.\n\n
+2. This is a team event. \nA team of 2 is required to take part in this event.\n\n
+3. Round 2 will be solely judged on how relevant the content of your tables are with the given scenario.\n\n
+Sample Question:\n
+Prepare a bill showing item details and the price such that he eats the\nmaximum number of items and yet he pays only between Rs.1000 and Rs.1500.\n\n</item>
+
 
     </string-array>
 
@@ -422,77 +387,46 @@ items and still pays only between 1000 and 1500.</item>
         <item>CODE NINJA</item>
         <item>On Site Event</item>
         <item>Three steps to geek-dom::\n\n
-1) Annihilate\n\n
-2) Transpose\n\n
-3) Cipher\n\n </item>
+Annihilate\n\n
+Transpose\n\n
+Cipher\n\n </item>
         <item>
 1. Debugging : “repair and redress” Hey there! Error Spotter!!\n\n
 2. Reverse Coding: “can u back pedal?” Backtrack, and find the source (code).\n\n
-3. Coding: : “Indite, indent ,innovate” Use logic to do the magic and you are now a geek.\n\n</item>
-        <item>1)Team event -3members per team\n\n
+3. Coding: : “Indite, indent ,innovate” Use logic to do the magic and you are now a geek.\n\nRules:\n1)Team event -3members per team\n\n
 2) All events are on spot(in app as well as pen-and-paper)\n\n
-3) Let Basic programming knowledge(java is not necessary c,c++ will do), pattern recognition and common sense guide you.\n\n</item>
-        <item>main()\n
-
-{\n
-
-clrscr();\n
-
-}\n
-
-clrscr();\n\n
-
-Answer:\n
-
-No output/error\n\n
-
-Explanation:\n
-
-The first clrscr() occurs inside a function. So it becomes a function call. In the second clrscr();
-
-is a function declaration (because it is not inside any function).</item>
+3) Let Basic programming knowledge(java is not necessary c,c++ will do), pattern recognition and common sense guide you.\n\n
+        </item>
 
     </string-array>
 
     <string-array name="paperRe">
         <item>COGNITION QUEST</item>
         <item>On Site Event</item>
-        <item>Are you happier knowing the working of Napier bones? Do you have a knack at discovery like Indiana Jones? Then bring it out coherently in the form of a structured writing aka “paper”. Though all your thoughts are welcome, there are a select few topics in which your thought outflow is gladly welcome. </item>
-        <item>Will be updated soon.check out our website for quick updates\n\n www.interrupt15.in</item>
-        <item>1) Abstract must be sent by\n\n
-2) Maximum 3 members per team.\n\n
-3) Please adhere to the topic chosen strictly.\n\n
-4) Choose topics only from the list given below:\n\n
+
+        <item>Do you ponder upon the intricacies while learning about technology?\nDo you search for solutions to the growing needs of this gadget dependent world?\nDo you believe in joining that elite league of innovators?\nIf so, then collate your ideas into a presentation,\ncollaborate with a like minded person and come showcase it at Interrupt.\n\
 </item>
-        <item>1.Data Mining\n\n
-
-2.Image Processing\n\n
-
-3.Artificial Intelligence\n\n
-
-4.Networks\n\n
-
-5.Datalake\n\n
-
-6.Multimedia\n\n
-
-7.Distributed Computing\n\n
-
-8.Embedded Systems.</item>
+        <item>Rules:\n1. Maximum number of participants in a team is 2.\n
+2. The Topic that the papers need to be based on are suggestive. It is advisable that the paper presentation focuses on one particular topic.\n
+3. Abstract should not exceed 80 words. Paper should not exceed 600 words but should have minimum of 450 words.\n
+4. Paper should be in IEEE format.\n
+5. Paper should be submitted as a word document  (.doc,.docx,.odt) or pdf.\n
+6. Plagiarism is strictly prohibited.\n
+7 .Bring your PowerPoint presentation in a pen drive.\n
+8. Mail your abstract and full paper to @gmail.com on or before.\n
+9. Confirmation mail will be sent to the selected papers on.\n
+10. Selected candidates should bring two hard-copies of paper.\n
+11. The teams will get minimum of 7 minutes and maximum of 10 minutes for presentation followed by question and answer.\n
+12. Team can register for only one paper.\n
+13. The mail with submission contains:\n- Title-theme of the paper.\n-Name of both participants.\n-phone number of both the authors.\n- E-mail ID.\n
+14. After you have submitted the soft copy, judges will go through your material and\nif you are shortlisted to give the presentation you will be notified.\n\n</item>
 
     </string-array>
-<string name="about_interrupt">Here we go INTERRUPTing a calm day again. Presenting the wildest and most viral sensation since cat videos and North
-West, Interrupt’15 is back-bigger and better than ever! Flying
-
-grenades, flipping ninjas and Chuck Norris all over town.
-
-Become the Sherlock Holmes through our treasure hunt, or be
-
-namma ooru “Dennis Ritchie” in coding. Idhu just trailor
-
-kannu,come see the real picture on the 3rd of September at
-
-SVCE.</string>
+<string name="about_interrupt">Webster’s Dictionary defines the word \‘Interrupt\’ as \‘to break off or cause to cease, as in the middle of something\’.\n Computer scientists define \‘Interrupt\’ as ‘a hardware signal that breaks the flow of program execution\nand transfers control to a predetermined storage location so that another procedure\ncan be followed or a new operation carried out\’,\nbut at SVCE, we define Interrupt simply as THE place to be for anyone with a passion for CS.\n\n Interrupt has had students marking their calendars for years now and this year it\’s back and bigger than ever!\nAre you the Don of Logic? Can you make databases dance to your tunes?\nOr is being a Code Ninja more your style? Join us at SVCE on October 1st and find out!\n\n
+Keep up with all the Interrupt news!\n
+Website: insert link\n
+App: insert link
+    </string>
 <string name="interrupt16">‘Boisterous’-One word that describes Interrupt’14 best. As always, the symposium
 
 had surpassed the expectations and set the bar really high making it even more
@@ -511,40 +445,12 @@ across the country, this event was a huge success.</string>
         <item>DON OF LOGIC</item>
         <item>On Site Event</item>
 
-        <item>Bring out the geek in you and introduce them to the great actor that you are! This is your chance to
+        <item>Do you have what it takes to survive against a wild bear if you just have just a blanket,\n a broomstick and an ice-cream sandwich on you?\nCan you de-code cryptic messages and come up with an algorithm to save the day?\nAre you better than others at lateral thinking?\nIf your answer to the above questions are yes, then only one thing remains to be decided.\nAre you worthy of being the Don Of Logic?\n\n</item>
 
-show how good an actor and how smart a person you are. We’ve got some exciting rounds and fun
+        <item>Round 1: Written Test\nA set of 30 lateral thinking questions, to be answered in 45 minutes. 10 people will be moved into the next round.\nThere will be one bonus question in the case of ties.\n\n
+Round 2: Quiz\nThe 10 people are cast into teams of 2 according to their marks in the previous round,\nso that there are 5 teams totally.\nEach team is given 5 cards initially. The card will have a daily household object like a blanket or a broomstick. \nThere is one special card, which has all the objects (tools). This is called a Wild Card.\nThe quiz master poses a survival question, and each team has to take out an answer card and place it face down.\nOnce all the teams have done so, each team has to show what tool they used and why they used that tool.\nOnly if the explanation is correct, will the team be awarded a point.\nEach team will now be given a new card (can be any tool) from the pack.\nThe three teams which get 13 points first move into the next round.\nSuppose someone uses the correct tool but doesn\'t give the correct explanation, they will not be awarded a point.\n Suppose someone knows the answer but doesn\'t have\nthe correct card, they will not be awarded a point.\nSuppose someone uses a Wild Card but doesn\'t tell what tool they\'re using\nfrom the EC correctly, they won\'t get a point.\n(Maximum time: 90-100 minutes)\n\n
 
-twists to the usual DumbC game. Register yourself right now and see yourself become the next Tom
-
-Cruise or Jennifer Aniston. </item>
-
-        <item><b>1)TECH-TABOO</b>\n
-
-<p>\t\tTaboo is a verbal game played with teams of three players or more with a set of taboo
-
-words.</p>\n
-       <b> 2)AUDIO ROUND/MOVIE ROUND\n</b>
-
-<p>\t\tA player from each team would have to pick a chit from the pile which has a mix of both
-
-audio as well as movie round. Each team therefore, would have to play either of the two
-
-depending on the chit.</p></item>
-
-        <item><p> Only 3 participants allowed per team;\n</p>
-
-<p> Each member of the team has to come at least once for gesticulation;\n</p>
-
-<p>POINTS: 10 points for guessing,5 points for pass question;\n</p>
-
-<p> At the end of each round points are tallied for each team, and top 5 teams make
-
-it to the finals after which the winner is declared by the team with the most
-
-points.</p></item>
-        <item>Will be updated soon</item>
-
+Round 3: Coding with a twist\nEach finalist will get a question to write a simple program in C or C++ (their choice)\n.The twist is that the question will be in a code.\nSo first the finalist has to decode the question, and once they do that,\nthey need to write, compile and execute the question.\nTotal time for this round is 45 minutes.\n\n</item>
     </string-array>
 
 
@@ -556,112 +462,58 @@ Emerge victorious!!  </item>
         <item>1. Puzzles, riddles and a lot of other stuff. ( other stuff::The things done when boredom threatens your life).\n\n
 2.  Fire at will.\n\n
 3. Can’t talk in public? Then get ready to ACT on cue to identify a clue!!!.\n\n
-</item>
-        <item>1. Download our app\n\n
+Steps:\n1. Download our app\n\n
 2. Round 1 in app as well as pen and paper\n\n
 3. 2 or 3 members per team.</item>
-        <item>In the attached picture, you can find different dice results. The empty throw means that
 
-the dice fell off the board. If we tell you that each pair of results have a relation to the
-
-overall system, can you find out the missing last tile?</item>
 
     </string-array>
 
 
 
     <string-array name="coc">
+
         <item>PICTURESQUE</item>
         <item>Online Event</item>
-        <item>Class FindWhatsOnYourMind{\n
-
-Enum StatesEveryday{ \n
-
-BORED, DOODLING, TEXTING, SLEEPING\n
-
-};\n
-
-Enum OnSept3rd{\n
-
-EXCITED, RUNNING, HAPPY, ENJOYING, ACTUALLY_LEARNING\n
-
-};\n
-
-String day,date,Venue;\n
-
-Public static void main( String [] args)\n
-
-{\n
-
-getDateDayLocation();/* write ui or something to get the date and venue*/\n
-
-try{\n
-
-if(Date != (depending  on how we get input)Sept3rd)\n
-
-{\n
-
-/*choosing a random value from StatesEveryday*/\n
-
-StatesEveryday x= \n
-
-StatesEveryday.values()[newRandom().nextInt(StatesEveryday.values().length)];\n
-
-System.out.println(“I am”+x);\n
-
-}\n
-
-else\n
-
-{\n
-
-throw new InterruptedException();\n
-
-} }\n
-
-catch(InterruptedException e){\n
-
- assert (Venu.equalsIgnoreCase(“svce”)) (“Must go to SVCE soon”);\n
-
-System .out.println(“Hah Yay, I am caught in the exceptional INTERRUPT”+ “ \\n I
-
-am”);\n
-
-for(OnSept3rd o: OnSept3rd.values())\n
-
-{\n
-
-System.out.print(o+ “\t”);\n
-
-}}} </item>
-        <item>1) Write only 10-12 lines and make magic\n\n
-
-2) This takes perseverance and endurance. Can you extrapolate your
-
-creational and application skills</item>
-        <item>1) Not a team Event\n\n
-
-2) Online coding (Work from home)!!!</item>
-        <item>Will be updated soon</item>
+        <item>Showcase your photography skills\n</item>
+        <item>Will be updated. Follow our website!</item>
 
     </string-array>
+
     <string-array name="quizzler">
 
         <item>QUIZZLER</item>
         <item>Online Event</item>
-        <item>Forget the subject, take a break and use CS for Common Sense and not Computer
+        <item>The quintessential geek is defined by the thick, round glasses and frequent usage of big technical words like\n\“\Architectural Neutral Distribution Format \“\. Sounds familiar?\n
+Are you willing to fight it out in a buzzer induced frenzy?\nAre you ready to be questioned on anything under the sun?(Or cloud, pun intended).\nAs the clock keeps ticking, we expect you to bring your A game at Interrupt this year!\n\n</item>
+        <item>The event is organised into 3 levels: Easy, Medium and Hard.\n
+Level 1 consists of 80 questions, followed by 60 questions in level 2 and 30 questions in level 3.\n\n
+The questions are randomly generated at each level according to their level of difficulty.\n
+Each level consists of questions that fall under six major categories, namely:\n
+1) Connections\n
+2) 4pics 1 word\n
+3) Scramble\n
+4) Label writing\n
+5) 5 clues 1 word\n
+6) Quote the Quote.\n\n
+Connections\n
+The participant is provided with a sequence of images from which he or she is required to obtain a technical term.\n\n
 
-Science for a while.
+4 Pics 1 word\n
+The player is required to find a word that is represented by a set of 4 pictures.\n\n
 
-Connect images, view the unseen, organize your thoughts and indulge in the
+Scramble\n
+The participant is required to descramble a given set of jumbled words.\n
+He or she will then have to reconstruct a word (the final answer) by using the letters present\nat the marked positions in the descrambled words with the help of a given clue.\n\n
 
-process of finding the needful. </item>
-        <item>1) Exciting and intriguing teasers, incomplete one liners ,etc.,\n\n
+Label Writing\n
+Given a group of words the player must find a common suffix that creates a set of meaningful words.\n\n
 
-2) Test your IQ. Puzzles await you.</item>
-        <item>1) No programming knowledge is needed
-\n\n
-2) Basic skills for aptitude and reasoning.</item>
-        <item>Will be updated soon</item>
+5 clues 1 word\n
+The player is required to find a word with the help of a given set of clues related to that word.\n\n
+
+Quote the Quote\n
+The player must choose the right phrase/word from the given set of\nmultiple choice answers to complete the Quotes coined by\n famous personalities in the field of computer science.\n\n.</item>
+
     </string-array>
 </resources>
