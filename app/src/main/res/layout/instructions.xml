@@ -25,7 +25,7 @@
             android:layout_marginBottom="@dimen/cardMarginVertical"
             android:layout_marginLeft="@dimen/cardMarginHorizontal"
             android:layout_marginRight="@dimen/cardMarginHorizontal"
-            android:layout_marginTop="@dimen/cardMarginVertical"
+            android:layout_marginTop="@dimen/cardMarginHorizontal"
             app:cardCornerRadius="2dp"
             app:cardElevation="2dp"
             card_view:cardBackgroundColor="@color/primary_custom"

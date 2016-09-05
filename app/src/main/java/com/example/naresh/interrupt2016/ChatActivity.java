@@ -98,7 +98,6 @@ public class ChatActivity extends Fragment {
                 ChatMessage chatMessage = new ChatMessage();
                 chatMessage.setId(122);//dummy
                 chatMessage.setMessage(messageText);
-                chatMessage.setDate(DateFormat.getDateTimeInstance().format(new Date()));
                 chatMessage.setMe(true);
                 request=messageET.getText().toString();
                 messageET.setText("");
@@ -164,7 +163,6 @@ public class ChatActivity extends Fragment {
             msg1.setId(2);
             msg1.setMe(false);
             msg1.setMessage(response);
-            msg1.setDate(DateFormat.getDateTimeInstance().format(new Date()));
             displayMessage(msg1);
 
         }

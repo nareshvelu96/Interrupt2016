@@ -11,6 +11,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
 import android.widget.ArrayAdapter;
+import android.widget.AutoCompleteTextView;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
@@ -43,6 +44,8 @@ public class Register extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_register);
         ButterKnife.inject(this);
+        AutoCompleteTextView college =(AutoCompleteTextView)findViewById(R.id.college);
+
         Button bt = (Button) findViewById(R.id.btn_signup);
         Typeface fontRobo1 = Typeface.createFromAsset(getAssets(),"fonts/Roboto-Medium.ttf");
         bt.setTypeface(fontRobo1);
@@ -61,12 +64,17 @@ public class Register extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+        String[] colnames = getResources().getStringArray(R.array.college_names);
+        ArrayAdapter<String> adapter = new ArrayAdapter<String>(Register.this,android.R.layout.simple_list_item_1,colnames);
+
+
+        college.setAdapter(adapter);
 
         String[] deptlist = getResources().getStringArray(R.array.dept);
         String[] yearlist = getResources().getStringArray(R.array.year);
-        ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,
+        ArrayAdapter<String> adapter2 = new ArrayAdapter<String>(this,
                 android.R.layout.simple_dropdown_item_1line, deptlist);
-        _dept.setAdapter(adapter);
+        _dept.setAdapter(adapter2);
         ArrayAdapter<String> adapter1 = new ArrayAdapter<String>(this,
                 android.R.layout.simple_dropdown_item_1line, yearlist);
         _year.setAdapter(adapter1);

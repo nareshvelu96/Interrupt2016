@@ -42,11 +42,4 @@ public class ChatMessage {
         this.userId = userId;
     }
 
-    public String getDate() {
-        return dateTime;
-    }
-
-    public void setDate(String dateTime) {
-        this.dateTime = dateTime;
-    }
 }
