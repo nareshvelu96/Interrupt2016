@@ -516,6 +516,8 @@ Quote the Quote\n
 The player must choose the right phrase/word from the given set of\nmultiple choice answers to complete the Quotes coined by\n famous personalities in the field of computer science.\n\n.</item>
 
     </string-array>
+
+    <string name="navbar_header">"1<sup>st</sup> October. Be there."</string>
     <string-array name="college_names">
         <item>UNIVERSITY DEPARTMENTS OF ANNA UNIVERSITY, CHENNAI – CEG CAMPUS</item>
 

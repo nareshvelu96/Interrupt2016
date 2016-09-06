@@ -37,6 +37,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Spread The Word"
+                android:fontFamily="sans-serif-light"
                 android:layout_weight="0"
                 android:id="@+id/share"
                 android:background="@color/accent" />

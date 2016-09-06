@@ -4,6 +4,7 @@ package com.example.naresh.interrupt2016;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.res.Resources;
+import android.graphics.Typeface;
 import android.os.Bundle;
 import android.provider.Settings;
 import android.support.annotation.Nullable;
@@ -24,6 +25,7 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.Button;
+import android.widget.TextView;
 
 
 public class MainActivity extends AppCompatActivity
@@ -36,6 +38,10 @@ public class MainActivity extends AppCompatActivity
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
         toolbar.setBackgroundColor(ContextCompat.getColor(getBaseContext(),R.color.primary));
+
+        //TextView textView = (TextView) findViewById(R.id.nav_title);
+        //Typeface fontRobo1 = Typeface.createFromAsset(getAssets(),"fonts/BOMBARD_.ttf");
+        //textView.setTypeface(fontRobo1);
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
