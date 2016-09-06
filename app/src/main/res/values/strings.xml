@@ -332,7 +332,7 @@
     5. SVCE College transport can be used and you can check the bus number and routes from the “Transport” tab in the app.
     </string>
 
-    <string name="app_name">Interrupt2016</string>
+    <string name="app_name">Interrupt</string>
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
@@ -389,16 +389,13 @@ Prepare a bill showing item details and the price such that he eats the\nmaximum
     <string-array name="codenin">
         <item>CODE NINJA</item>
         <item>On Site Event</item>
-        <item>Three steps to geek-dom::\n\n
-Annihilate\n\n
-Transpose\n\n
-Cipher\n\n </item>
+        <item>Let the feast begin!\n
+Brace yourself for the most exciting event as we unravel the mysteries of two of the\nmost popular programming languages, C and C++! If you are good at it, there\nis no better place for you than at this event- Code Ninja.\n\n
+It’s time to showcase your coding skills while we take you through challenging rounds. Solve the puzzles and crack the code to find your way to glory.\n\n</item>
         <item>
-1. Debugging : “repair and redress” Hey there! Error Spotter!!\n\n
-2. Reverse Coding: “can u back pedal?” Backtrack, and find the source (code).\n\n
-3. Coding: : “Indite, indent ,innovate” Use logic to do the magic and you are now a geek.\n\nRules:\n1)Team event -3members per team\n\n
-2) All events are on spot(in app as well as pen-and-paper)\n\n
-3) Let Basic programming knowledge(java is not necessary c,c++ will do), pattern recognition and common sense guide you.\n\n
+Round 1:\nThe first round consists of objective type questions related to the concepts of C and C++.\n Choose the correct option or enter the answers to the questions in the space provided.\nGet a top score to slide into Round 2!\n\n
+Round 2:\tCrack the code word!\nIn the second and final round, you need to solve problems, and find clues after solving them.\nWith the clues, find an interesting end result (maybe a person, latest technology, movie, etc.).\nThere are 20 such words with 5 clues (problems to solve) each.\nIt works as follows:\nYou will be given a problem to solve. Solve it and use the clue to find out the word.\nIf you are unable to find out, you will be given another such problem for the same word.\nKeep trying until you find the word. Only 5 problems would be given for each word.\nThe faster you find out, the more points you get.\n
+Find as many words as you can within the stipulated time to win the event! \n\n
         </item>
 
     </string-array>

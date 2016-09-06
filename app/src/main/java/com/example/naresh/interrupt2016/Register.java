@@ -44,7 +44,7 @@ public class Register extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_register);
         ButterKnife.inject(this);
-        AutoCompleteTextView college =(AutoCompleteTextView)findViewById(R.id.college);
+        TextView college =(TextView)findViewById(R.id.college);
 
         Button bt = (Button) findViewById(R.id.btn_signup);
         Typeface fontRobo1 = Typeface.createFromAsset(getAssets(),"fonts/Roboto-Medium.ttf");
@@ -64,11 +64,11 @@ public class Register extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-        String[] colnames = getResources().getStringArray(R.array.college_names);
-        ArrayAdapter<String> adapter = new ArrayAdapter<String>(Register.this,android.R.layout.simple_list_item_1,colnames);
+        //String[] colnames = getResources().getStringArray(R.array.college_names);
+        //ArrayAdapter<String> adapter = new ArrayAdapter<String>(Register.this,android.R.layout.simple_list_item_1,colnames);
 
 
-        college.setAdapter(adapter);
+        //college.setAdapter(adapter);
 
         String[] deptlist = getResources().getStringArray(R.array.dept);
         String[] yearlist = getResources().getStringArray(R.array.year);
