@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "511804971475",
+    "firebase_url": "https://interrupt2016-d4f07.firebaseio.com",
+    "project_id": "interrupt2016-d4f07",
+    "storage_bucket": "interrupt2016-d4f07.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:511804971475:android:9420220437bb067e",
+        "android_client_info": {
+          "package_name": "com.example.naresh.interrupt2016"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "511804971475-597uft4u5mpe50v4oba7umqe85u16hhd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAfXSGD-Hw-XyL6ryaku7BDNEbz6yUO_8g"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

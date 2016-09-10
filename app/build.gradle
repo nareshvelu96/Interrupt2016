@@ -5,7 +5,7 @@ android {
     buildToolsVersion "24.0.0"
 
     defaultConfig {
-        applicationId "com.example.naresh.interrupt2016"
+        applicationId "in.svce.interrupt16.android"
         minSdkVersion 19
         targetSdkVersion 24
         versionCode 1
@@ -36,8 +36,8 @@ dependencies {
     compile 'com.rengwuxian.materialedittext:library:2.1.4'
     compile 'com.github.manuelpeinado.fadingactionbar:fadingactionbar:3.1.2'
     compile 'com.wrapp.floatlabelededittext:library:0.0.6'
-    compile 'com.nispok:snackbar:2.11.+'
-    compile 'com.google.android.gms:play-services:7.5.0'
+    compile 'com.nispok:snackbar:2.11.0'
+    compile 'com.google.android.gms:play-services:9.0.0'
     compile 'com.ikimuhendis:ldrawer:0.1'
     compile 'uk.co.chrisjenx:calligraphy:2.1.0'
     // Or the fol
