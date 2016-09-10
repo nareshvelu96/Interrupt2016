@@ -34,7 +34,7 @@ public class ChatActivity extends Fragment {
     private ArrayList<ChatMessage> chatHistory;
     private static final String TAG = "MainActivity";
 
-    String botname = "alice2",request;
+    String botname = "super",request;
 
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
 
