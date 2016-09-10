@@ -23,10 +23,10 @@ public class eventreg extends Fragment {
         view = inflater.inflate(R.layout.eventreg,container,false);
 
 
-        if (!Values.is_loggedin) {
-            Intent intent = new Intent(getActivity(), Login.class);
+        //if (!Values.is_loggedin) {
+            Intent intent = new Intent(getActivity(), Register.class);
             startActivity(intent);
-        }
+        /*}
 
         // For setting fonts:-
         Switch s1= (Switch) view.findViewById(R.id.mybcb);
@@ -82,6 +82,7 @@ public class eventreg extends Fragment {
             }
 
         });
+        */
 return view;
     }
 

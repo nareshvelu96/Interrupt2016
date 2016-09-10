@@ -25,7 +25,7 @@ import butterknife.InjectView;
 
 public class Register extends AppCompatActivity {
     private static final String TAG = "SignupActivity";
-    private static final String REGISTER_URL = "http://www.interrupt16.in/app/register.php";
+    private static final String REGISTER_URL = "http://interrupt16.in/app/register.php";
 
     @InjectView(R.id.name) EditText _nameText;
     @InjectView(R.id.email) EditText _emailText;
