@@ -242,7 +242,7 @@ public class Register extends AppCompatActivity {
                 super.onPostExecute(s);
                 loading.dismiss();
                 //if()
-                Toast.makeText(getApplicationContext(),s,Toast.LENGTH_LONG).show();
+                Toast.makeText(getApplicationContext(),"Successful",Toast.LENGTH_LONG).show();
             }
 
             @Override
