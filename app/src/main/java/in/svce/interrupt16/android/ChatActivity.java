@@ -73,7 +73,7 @@ public class ChatActivity extends Fragment {
         TextView meLabel = (TextView) rootView.findViewById(R.id.meLbl);
         TextView companionLabel = (TextView) rootView.findViewById(R.id.friendLabel);
         RelativeLayout container = (RelativeLayout) rootView.findViewById(R.id.container);
-        companionLabel.setText("INTBOT");
+        companionLabel.setText("");
         File fileExt = new File(getActivity().getExternalFilesDir(null).getAbsolutePath() + "/bots");
         if (!fileExt.exists()) {
             ZipFileExtraction extract = new ZipFileExtraction();
@@ -104,7 +104,7 @@ public class ChatActivity extends Fragment {
                 ChatMessage chatMessage = new ChatMessage();
                 chatMessage.setId(122);//dummy
                 chatMessage.setMessage(messageText);
-                chatMessage.setMe(true);
+                chatMessage.setMe(false);
                 request=messageET.getText().toString();
                 messageET.setText("");
 
@@ -167,7 +167,7 @@ public class ChatActivity extends Fragment {
             }
             ChatMessage msg1 = new ChatMessage();
             msg1.setId(2);
-            msg1.setMe(false);
+            msg1.setMe(true);
             msg1.setMessage(response);
             displayMessage(msg1);
 
