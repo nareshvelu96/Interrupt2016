@@ -96,7 +96,7 @@ public class events_fragment extends Fragment {
                     image.setImageResource(R.drawable.myb);
                 } else if (event.getEvent_name().equals("GAME OF ARCHIVES")) {
                     image.setImageResource(R.drawable.database1);
-                } else if (event.getEvent_name().equals("DATA STRUCTURE")) {
+                } else if (event.getEvent_name().equals("DATA DE-QUEUE")) {
                     image.setImageResource(R.drawable.datastructures1);
                 } else if (event.getEvent_name().equals("CODE NINJA")) {
                     image.setImageResource(R.drawable.codeninja1);

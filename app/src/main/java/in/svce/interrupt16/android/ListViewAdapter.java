@@ -55,7 +55,7 @@ public class ListViewAdapter extends ArrayAdapter<event> {
             holder.eventIcon.setImageResource(R.drawable.myb);
         }else if (getItem(position).getEvent_name().equals("GAME OF ARCHIVES")) {
             holder.eventIcon.setImageResource(R.drawable.database1);
-        }else if (getItem(position).getEvent_name().equals("DATA STRUCTURE")){
+        }else if (getItem(position).getEvent_name().equals("DATA DE-QUEUE")){
             holder.eventIcon.setImageResource(R.drawable.datastructures1);
         }else if (getItem(position).getEvent_name().equals("CODE NINJA")) {
             holder.eventIcon.setImageResource(R.drawable.codeninja1);
