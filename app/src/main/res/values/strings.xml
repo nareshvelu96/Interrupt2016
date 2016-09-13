@@ -475,8 +475,19 @@ Steps:\n1. Download our app\n\n
 
         <item>PICTURESQUE</item>
         <item>Online Event</item>
-        <item>Showcase your photography skills\n</item>
-        <item>Will be updated. Follow our website!</item>
+        <item>Aim. Focus. Shoot!\n
+Let your words be few, and your exposures be many..\n
+
+We welcome you all to participate in the online photography contest conducted by INTERRUPT\'16.\n
+We provide you an opportunity where you could impress us with your shutterbug skills.\n
+
+</item>
+        <item> So here you go!\nYou need to inbox your images to the INTERRUPT\'16 page with your Name, College Name and your contact number.\n
+
+All your clicks will be judged only by the juries and not by likes or shares, as likes count can\'t filter talents :)\n\n
+
+1.Theme is open for the first round.(impress us with your skills).\n
+2.Second round will be filtered and the theme will be announced later.\n\n</item>
 
     </string-array>
 
@@ -484,10 +495,8 @@ Steps:\n1. Download our app\n\n
 
         <item>QUIZZLER</item>
         <item>Online Event</item>
-        <item>The quintessential geek is defined by the thick, round glasses and frequent usage of big technical words like\n\“\Architectural Neutral Distribution Format \“\. Sounds familiar?\n
-Are you willing to fight it out in a buzzer induced frenzy?\nAre you ready to be questioned on anything under the sun?(Or cloud, pun intended).\nAs the clock keeps ticking, we expect you to bring your A game at Interrupt this year!\n\n</item>
-        <item>The event is organised into 3 levels: Easy, Medium and Hard.\n
-Level 1 consists of 80 questions, followed by 60 questions in level 2 and 30 questions in level 3.\n\n
+        <item>The quintessential geek is defined by the thick, round glasses and frequent usage of big technical words like\n\"Architectural Neutral Distribution Format \“.Sounds familiar?\nAre you willing to fight it out in a buzzer induced frenzy?\nAre you ready to be questioned on anything under the sun?(Or cloud, pun intended).\nAs the clock keeps ticking, we expect you to bring your A game at Interrupt this year!\n\n</item>
+        <item>The event is organised into 3 levels: Easy, Medium and Hard.\nLevel 1 consists of 80 questions, followed by 60 questions in level 2 and 30 questions in level 3.\n\n
 The questions are randomly generated at each level according to their level of difficulty.\n
 Each level consists of questions that fall under six major categories, namely:\n
 1) Connections\n

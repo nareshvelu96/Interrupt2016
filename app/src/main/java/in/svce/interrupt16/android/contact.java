@@ -29,23 +29,14 @@ public class contact extends Fragment {
 
 
 
-        ImageButton call1, call2, call3, call4;
+        ImageButton call2, call3, call4;
 
-        call1 = (ImageButton) view.findViewById(R.id.call1);
+
         call2 = (ImageButton) view.findViewById(R.id.call2);
         call3 = (ImageButton) view.findViewById(R.id.call3);
         call4 = (ImageButton) view.findViewById(R.id.call4);
 
 
-        call1.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                String numberToDial = "tel:" + "9842092575";
-                startActivity(new Intent(Intent.ACTION_DIAL, Uri.parse(numberToDial)));
-
-
-            }
-        });
 
         call2.setOnClickListener(new View.OnClickListener() {
             @Override
