@@ -28,6 +28,14 @@
             android:background="@color/background_floating_material_dark"
             android:text="Send"
             android:textColor="@color/background_material_light"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/chat"
+            android:id="@+id/chat"
+            android:gravity="left|top"
+            android:layout_below="@+id/meLbl"
+            android:textSize="12sp"/>
 
         <ListView
             android:id="@+id/messagesContainer"
@@ -37,12 +45,11 @@
             android:layout_alignParentTop="false"
             android:layout_marginBottom="20dp"
             android:layout_above="@+id/messageEdit"
-            android:layout_below="@+id/meLbl"
+            android:layout_below="@id/chat"
             android:layout_marginTop="10dp"
             android:listSelector="@android:color/transparent"
             android:transcriptMode="alwaysScroll"
             android:divider="@null" />
-
         <TextView
             android:id="@+id/meLbl"
             android:layout_width="wrap_content"
@@ -50,14 +57,14 @@
             android:layout_height="wrap_content"
             android:layout_gravity="left|center_vertical"
             android:singleLine="false"
-            android:textSize="20dp" />
+            android:textSize="20sp" />
 
         <TextView
             android:id="@+id/friendLabel"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentRight="true"
-            android:textSize="20dp" />
+            android:textSize="20sp" />
 
 
 
