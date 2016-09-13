@@ -1,6 +1,6 @@
 <resources>
 
-<string name="chat">Ask me Interrupt-related queries!</string>
+<string name="chat">Ask me Interrupt-related queries!.Try typing help.</string>
     <string-array name="stops">
         <item>100 ft Road</item>
         <item>100ft Road</item>
@@ -341,7 +341,7 @@
     <string-array name="myb">
         <item>MYB V4.0</item>
         <item>On Site Event</item>
-        <item>It’s that time of the year when mid-season sales pop up.\n\nAs brands go all out, marketing their product, you fall prey to buying the 500th pair of ripped jeans,which you might not\nneed, only because of the innumerable times that you watched the advertisement on television.\nThis is probably the case with everyone, but are you one of the few who convinces people into buying that product? Do you have the skills to lay out an attractive trap, luring customers to choose your company?\n\nDo you have the gift of the gab?\n\nIf you think you do, we would say come and show us at MYB event at Interrupt!\n        </item>
+        <item>It’s that time of the year when mid-season sales pop up.\n\nAs brands go all out, marketing their product, you fall prey to buying the 500th pair of ripped jeans\n, only because of the innumerable ads on television.\nThis is probably the case with everyone, but are you one of the few who convince people into buying a product? Do you have the skills to lure  customer into choosing your product?\n\nDo you have the gift of the gab?\n\nIf you think you do, we would say come and show us at MYB!\n        </item>
         <item>Round 1:\tWritten test.\n
 A written test will be conducted to test the logical and analytical skills. It would also gauge your personality.\n\n
 Round 2:\tTaboo.\n
@@ -351,10 +351,10 @@ Round 3:\tMarketing\nA team is given a product, and asked to make a sketch to ad
     </string-array>
 
     <string-array name="datasurfer">
-        <item>DATA STRUCTURE</item>
+        <item>DATA DE-QUEUE</item>
         <item>On Site Event</item>
 
-        <item>What is data? Is it letters? Is it numbers?\nIs it a combination of both? Or is it something completely abstract?\nWell, everything counts as data. Right from alphabets to the copies of oxford dictionary, from the number of times your cat sneezed to the various cat videos\non YouTube everything is data.\nSo how do we store data?\nCan you visualize structures to store data?\nDoes your brain automatically link nodes in the form of lists\nor does it make it more complex by branching? If you can\ndo that, then can you translate those diagrams into segments of code? \n\nCome and try your hand at the data structures event.        </item>
+        <item>What is data? Is it letters? Is it numbers?\nIs it a combination of both? Or is it something completely abstract?\nWell, right from alphabets to the copies of oxford dictionary, from the number of times your cat sneezed to the various cat videos\non YouTube is data.\nSo how do we store data?\nDoes your brain automatically link nodes in the form of lists\nor does it make it more complex by branching?\ncan you translate those diagrams into segments of code? \n\nPut those hours you spent on online coding contests to use at data De-Queue.        </item>
 
         <item>Round 1\nYou have 20 minutes to answer 20 questions. Qualifiers will move on to the next round.\n\nRound 2\nThis is a surprise round but prepare yourself for some hardcore coding.
         </item>
@@ -365,9 +365,9 @@ Round 3:\tMarketing\nA team is given a product, and asked to make a sketch to ad
         <item>GAME OF ARCHIVES</item>
         <item>On Site Event</item>
         <item>
-Imagine you’re watching an episode of Sherlock. What happens in every case?\nEvidences and red herrings pop up and we try to solve the case along with Sherlock and Watson.\nIn the end you’d have noticed what cracks the case would be the seemingly harmless scribble\non the book which lies open carelessly during the time of murder.\nEvery piece of information out there provides clues to the most complex problems.\nRecorded details of the past prove to be the ultimate evidence in the present.\n
-So do you have what it takes to store valuable information?\n Tables are a tool and an archive is a library of data.\nDo you have what it takes to become a DBA?\n
-Here’s an opportunity you wouldn’t want to miss!\nPut your database skills to the best use and show who’s the boss.\nCreate tables that could change the way we perceive and extract information.\nNormalize your data to achieve supreme efficiency.\nThe game is going to be an intense one.\nAre you ready to battle it out in a game of archives?Come, show it at Interrupt!\n
+Imagine you’re watching an episode of Sherlock. What happens in every case?\nEvidences and red herrings pop up willy-nilly and we try to solve the case along with Sherlock and Watson.\nIn the end you’d have noticed what cracks the case would be the seemingly harmless scribble\non the book which lies open carelessly during the time of murder.\nEvery piece of information out there provides clues to the most complex problems.\nRecorded details of the past prove to be the ultimate evidence in the present.\n
+Do you have what it takes to become a DBA?\n\n
+Here’s an opportunity you wouldn’t want to miss!\nPut your database skills to the best use and show who’s the boss.\nCreate tables that could change the way we perceive and extract information.\nNormalize your data to achieve supreme efficiency.\nThe game is going to be an intense one.\n
 </item>
         <item>1. Query Round:\n
 This is the qualifying round that takes place on site.\nJust with some queries and you could be part of the epic battle.\n\n
@@ -389,7 +389,7 @@ Prepare a bill showing item details and the price such that he eats the\nmaximum
         <item>CODE NINJA</item>
         <item>On Site Event</item>
         <item>Let the feast begin!\n
-Brace yourself for the most exciting event as we unravel the mysteries of two of the\nmost popular programming languages, C and C++! If you are good at it, there\nis no better place for you than at this event- Code Ninja.\n\n
+Brace yourself for the most exciting event as we unravel the mysteries of two of the\nmost popular programming languages, C and C++! If you are a good coder, there\nis no better place for you than Code Ninja.\n\n
 It’s time to showcase your coding skills while we take you through challenging rounds. Solve the puzzles and crack the code to find your way to glory.\n\n</item>
         <item>
 Round 1:\nThe first round consists of objective type questions related to the concepts of C and C++.\n Choose the correct option or enter the answers to the questions in the space provided.\nGet a top score to slide into Round 2!\n\n
@@ -403,7 +403,7 @@ Find as many words as you can within the stipulated time to win the event! \n\n
         <item>COGNITION QUEST</item>
         <item>On Site Event</item>
 
-        <item>Do you ponder upon the intricacies while learning about technology?\nDo you search for solutions to the growing needs of this gadget dependent world?\nDo you believe in joining that elite league of innovators?\nIf so, then collate your ideas into a presentation,\ncollaborate with a like minded person and come showcase it at Interrupt.\n\
+        <item>Do you ponder upon the intricacies while learning about technology?\nDo you search for solutions to the problems of this gadget dependent world?\nDo you dream of joining that elite league of innovators?\nIf so, then collate your ideas into a presentation,\ncollaborate with a like minded person and come showcase it at Interrupt.\n\
 </item>
         <item>Rules:\n1. Maximum number of participants in a team is 2.\n
 2. The Topic that the papers need to be based on are suggestive. It is advisable that the paper presentation focuses on one particular topic.\n
@@ -412,13 +412,13 @@ Find as many words as you can within the stipulated time to win the event! \n\n
 5. Paper should be submitted as a word document  (.doc,.docx,.odt) or pdf.\n
 6. Plagiarism is strictly prohibited.\n
 7 .Bring your PowerPoint presentation in a pen drive.\n
-8. Mail your abstract and full paper to @gmail.com on or before.\n
-9. Confirmation mail will be sent to the selected papers on.\n
+8. Mail your abstract and full paper to svcepapier2k16@gmail.com on or before25/09/2016.\n
+9. Confirmation mail will be sent to the selected papers on28/09/2016.\n
 10. Selected candidates should bring two hard-copies of paper.\n
 11. The teams will get minimum of 7 minutes and maximum of 10 minutes for presentation followed by question and answer.\n
 12. Team can register for only one paper.\n
-13. The mail with submission contains:\n- Title-theme of the paper.\n-Name of both participants.\n-phone number of both the authors.\n- E-mail ID.\n
-14. After you have submitted the soft copy, judges will go through your material and\nif you are shortlisted to give the presentation you will be notified.\n\n</item>
+13. The submission should contain:\n- Title-theme of the paper.\n-Name of both participants.\n-phone number of both the authors.\n- E-mail ID.\n
+14. Shortlisted teams will be notified through mail.\n\n</item>
 
     </string-array>
 <string name="about_interrupt">Webster\’s Dictionary defines the word ‘Interrupt’ as ”to break off or cause to cease, as in the middle of something”.\nComputer scientists define ‘Interrupt’ as ”A hardware signal that breaks the flow of program execution and transfers control to a predetermined storage location so that another procedure can be followed or a new operation carried out”, but at SVCE, we define Interrupt simply as THE place to be for anyone with a passion for CS.\n\nInterrupt has had students marking their calendars for years now and this year it\’s back and bigger than ever!\nAre you the Don of Logic? Can you make databases dance to your tunes?\nOr is being a Code Ninja more your style? Join us at SVCE on October 1st and find out!\n\n
@@ -445,7 +445,7 @@ across the country, this event was a huge success.</string>
         <item>DON OF LOGIC</item>
         <item>On Site Event</item>
 
-        <item>Do you have what it takes to survive against a wild bear if you just have just a blanket,\n a broomstick and an ice-cream sandwich on you?\nCan you de-code cryptic messages and come up with an algorithm to save the day?\nAre you better than others at lateral thinking?\nIf your answer to the above questions are yes, then only one thing remains to be decided.\nAre you worthy of being the Don Of Logic?\n\n</item>
+        <item>Can survive against a wild bear if you just have just a blanket,\n a broomstick and an ice-cream sandwich on you?\nCan you de-code cryptic messages and come up with an algorithm to save the day?\nAre you better than others at lateral thinking?\nIf your answer to the above questions are yes, then only one thing remains to be decided.\nAre you worthy of being the Don Of Logic?\n\n</item>
 
         <item>Round 1: Written Test\nA set of 30 lateral thinking questions, to be answered in 45 minutes. 10 people will be moved into the next round.\nThere will be one bonus question in the case of ties.\n\n
 Round 2: Quiz\nThe 10 people are cast into teams of 2 according to their marks in the previous round,\nso that there are 5 teams totally.\nEach team is given 5 cards initially. The card will have a daily household object like a blanket or a broomstick. \nThere is one special card, which has all the objects (tools). This is called a Wild Card.\nThe quiz master poses a survival question, and each team has to take out an answer card and place it face down.\nOnce all the teams have done so, each team has to show what tool they used and why they used that tool.\nOnly if the explanation is correct, will the team be awarded a point.\nEach team will now be given a new card (can be any tool) from the pack.\nThe three teams which get 13 points first move into the next round.\nSuppose someone uses the correct tool but doesn\'t give the correct explanation, they will not be awarded a point.\n Suppose someone knows the answer but doesn\'t have\nthe correct card, they will not be awarded a point.\nSuppose someone uses a Wild Card but doesn\'t tell what tool they\'re using\nfrom the EC correctly, they won\'t get a point.\n(Maximum time: 90-100 minutes)\n\n
@@ -495,7 +495,7 @@ All your clicks will be judged only by the juries and not by likes or shares, as
 
         <item>QUIZZLER</item>
         <item>Online Event</item>
-        <item>The quintessential geek is defined by the thick, round glasses and frequent usage of big technical words like\n\"Architectural Neutral Distribution Format \“.Sounds familiar?\nAre you willing to fight it out in a buzzer induced frenzy?\nAre you ready to be questioned on anything under the sun?(Or cloud, pun intended).\nAs the clock keeps ticking, we expect you to bring your A game at Interrupt this year!\n\n</item>
+        <item>The quintessential geek is defined by the thick, round glasses and frequent usage of long words like\n\“Non co-operative oligopolistic equilibrium \“.Sounds familiar?\nAre you willing to fight it out in a buzzer induced frenzy?\nAre you ready to be questioned on anything under the sun?(pun intended!).\nwe expect you to bring your A game at Quizzler this year!\n\n</item>
         <item>The event is organised into 3 levels: Easy, Medium and Hard.\nLevel 1 consists of 80 questions, followed by 60 questions in level 2 and 30 questions in level 3.\n\n
 The questions are randomly generated at each level according to their level of difficulty.\n
 Each level consists of questions that fall under six major categories, namely:\n
