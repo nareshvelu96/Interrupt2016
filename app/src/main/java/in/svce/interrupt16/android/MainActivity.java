@@ -52,7 +52,7 @@ public class MainActivity extends AppCompatActivity
                         "\n" +
                         "Also, visit Web - www.interrupt16.in and Facebook page -\n" +
                         "\n" +
-                        "facebook.com/svceinterrupt\nDownload the Interrupt app from\nhttps://play.google.com/store/apps/details?id=in.interrupt.android";
+                        "facebook.com/svceinterrupt\nDownload the Interrupt app from\nhttps://play.google.com/store/apps/details?id=in.svce.interrupt16.android";
                 sharingIntent.putExtra(android.content.Intent.EXTRA_SUBJECT, "INTERRUPT");
                 sharingIntent.putExtra(android.content.Intent.EXTRA_TEXT, shareBody);
                 startActivity(Intent.createChooser(sharingIntent, "Share via"));

@@ -25,7 +25,7 @@ import butterknife.InjectView;
 public class Login extends AppCompatActivity {
     private static final String TAG = "LoginActivity";
     private static final int REQUEST_SIGNUP = 0;
-    private static final String LOGIN_URL = "http://www.interrupt16.in/login.php";
+    private static final String LOGIN_URL = "http://interrupt16.in/login.php";
     @InjectView(R.id.input_email) EditText _emailText;
 
     @InjectView(R.id.input_password)    EditText _passwordText;
