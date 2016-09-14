@@ -112,15 +112,13 @@ public class events_fragment extends Fragment {
                     image.setImageResource(R.drawable.quizzler);
                 }
                 name.setText(event.getEvent_name());
-                Typeface name_font = Typeface.createFromAsset(getActivity().getAssets(), "fonts/Capture_it.ttf");
-                name.setTypeface(name_font);
+
                 type.setText(event.getEvent_type());
-                type.setTypeface(name_font);
+
                 desc.setText(event.getDescription());
-                Typeface content_font = Typeface.createFromAsset(getActivity().getAssets(), "fonts/Roboto-Light.ttf");
-                desc.setTypeface(content_font );
+
                 rounds.setText(event.getRounds());
-                rounds.setTypeface(content_font );
+
                 draggableView.setVisibility(View.VISIBLE);
 
                 //restore draggable view height

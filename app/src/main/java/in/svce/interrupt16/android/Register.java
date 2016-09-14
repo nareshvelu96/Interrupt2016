@@ -45,9 +45,6 @@ public class Register extends AppCompatActivity {
         ButterKnife.inject(this);
         TextView college =(TextView)findViewById(R.id.college);
 
-        Button bt = (Button) findViewById(R.id.btn_signup);
-        Typeface fontRobo1 = Typeface.createFromAsset(getAssets(),"fonts/Roboto-Medium.ttf");
-        bt.setTypeface(fontRobo1);
 
         _signupButton.setOnClickListener(new View.OnClickListener() {
             @Override

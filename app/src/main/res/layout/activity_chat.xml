@@ -16,6 +16,7 @@
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
             android:layout_toLeftOf="@+id/chatSendButton"
+            android:fontFamily="sans-serif-light"
             android:autoText="true"
             android:hint="Enter message" />
 
@@ -25,6 +26,7 @@
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
             android:layout_alignParentRight="true"
+            android:fontFamily="sans-serif-thin"
             android:background="@color/background_floating_material_dark"
             android:text="Send"
             android:textColor="@color/background_material_light"/>
@@ -33,6 +35,7 @@
             android:layout_height="wrap_content"
             android:text="@string/chat"
             android:id="@+id/chat"
+            android:fontFamily="sans-serif-thin"
             android:gravity="left|top"
             android:layout_below="@+id/meLbl"
             android:textSize="12sp"/>
@@ -54,6 +57,7 @@
             android:id="@+id/meLbl"
             android:layout_width="wrap_content"
             android:text="INTBOT"
+            android:fontFamily="sans-serif-thin"
             android:layout_height="wrap_content"
             android:layout_gravity="left|center_vertical"
             android:singleLine="false"
@@ -62,6 +66,7 @@
         <TextView
             android:id="@+id/friendLabel"
             android:layout_width="wrap_content"
+            android:fontFamily="sans-serif-light"
             android:layout_height="wrap_content"
             android:layout_alignParentRight="true"
             android:textSize="20sp" />

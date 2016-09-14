@@ -39,11 +39,11 @@
                 android:layout_margin="10dp"
                 android:orientation="vertical">
                 <TextView
-                    fontPath="fonts/hamburger.TTF"
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
                     android:text="Instructions"
                     android:layout_gravity="left"
+                    android:fontFamily="sans-serif-thin"
                     android:textSize="30dp"
                     android:textColor="@color/white"
                     />
@@ -59,7 +59,7 @@
                     android:layout_height="500dp"
                     android:text="@string/instruction"
                     android:textSize="20dp"
-                    fontPath="fonts/hamburger.TTF"
+                    android:fontFamily="sans-serif-light"
                     android:textColor="@color/white"
                     android:layout_marginTop="10dp"/>
             </LinearLayout>

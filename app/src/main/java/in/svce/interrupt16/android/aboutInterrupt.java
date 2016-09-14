@@ -31,15 +31,7 @@ public class aboutInterrupt extends Fragment  {
         super.onCreate(savedInstanceState);
         View view = mFadingHelper.createView(inflater);
 
-        //For font style:-
-        TextView textView = (TextView) view.findViewById(R.id.about_title1);
-        Typeface fontRobo1 = Typeface.createFromAsset(getActivity().getAssets(),"fonts/BOMBARD_.ttf");
-        textView.setTypeface(fontRobo1);
 
-
-        TextView textView3 = (TextView) view.findViewById(R.id.about_secondary1);
-        Typeface fontRobo3 = Typeface.createFromAsset(getActivity().getAssets(),"fonts/DroidSans.ttf");
-        textView3.setTypeface(fontRobo3);
 
 
         if (mArguments != null){

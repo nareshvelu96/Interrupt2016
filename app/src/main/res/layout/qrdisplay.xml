@@ -12,6 +12,8 @@
     <Button android:id="@+id/button1"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-light"
+        android:textSize="17sp"
         android:text="Proceed"
         android:layout_gravity="center_horizontal"
         android:background="@drawable/register"/>

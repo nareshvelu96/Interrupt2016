@@ -24,11 +24,7 @@ public class spons extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         view = inflater.inflate(R.layout.sponsors,container,false);
 
-        TextView textView = (TextView) view.findViewById(R.id.spons1);
-        Typeface fontRobo1 = Typeface.createFromAsset(getActivity().getAssets(),"fonts/Caviar_Dreams_Bold.ttf");
-        textView.setTypeface(fontRobo1);
-        textView.setMovementMethod(LinkMovementMethod.getInstance());
-        textView.setTextColor(Color.parseColor("#FFFFFF"));
+
         ImageButton imageButton =(ImageButton) view.findViewById(R.id.sponsI1);
         imageButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -41,11 +37,7 @@ public class spons extends Fragment {
         });
 
 
-        TextView textView2 = (TextView) view.findViewById(R.id.spons2);
-        Typeface fontRobo2 = Typeface.createFromAsset(getActivity().getAssets(),"fonts/Caviar_Dreams_Bold.ttf");
-        textView2.setTypeface(fontRobo2);
-        textView2.setMovementMethod(LinkMovementMethod.getInstance());
-        textView2.setTextColor(Color.parseColor("#FFFFFF"));
+
 
         ImageButton iB =(ImageButton) view.findViewById(R.id.sponsI2);
         iB.setOnClickListener(new View.OnClickListener() {
