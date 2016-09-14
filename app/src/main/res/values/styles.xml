@@ -74,7 +74,7 @@
     <color name="primary">#4EB1DA</color>
     <color name="primary_dark">#43b5f5</color>
     <color name="primary_light">#E9E9E9</color>
-    <color name="primary_custom">#000428</color>
+    <color name="primary_custom">#303F9f</color>
     <color name="accent">#E0F7FA</color>
     <color name="primary_text">#212121</color>
     <color name="secondary_text">#E1F5FE</color>

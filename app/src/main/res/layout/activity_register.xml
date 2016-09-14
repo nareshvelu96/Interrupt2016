@@ -28,7 +28,7 @@
                 android:layout_height="wrap_content"
                 android:inputType="textCapWords"
                 android:hint="Name"
-                android:fontFamily="fonts/Roboto-Light.ttf"/>
+                android:fontFamily="sans-serif-light"/>
         </android.support.design.widget.TextInputLayout>
 
         <!-- Email Label -->
@@ -42,7 +42,7 @@
                 android:layout_height="wrap_content"
                 android:inputType="textEmailAddress"
                 android:hint="Email"
-                android:fontFamily="fonts/Roboto-Light.ttf"/>
+                android:fontFamily="sans-serif-light"/>
         </android.support.design.widget.TextInputLayout>
 
         <!-- Password Label -->
@@ -56,7 +56,7 @@
                 android:layout_height="wrap_content"
                 android:inputType="textPassword"
                 android:hint="Password"
-                android:fontFamily="fonts/Roboto-Light.ttf"/>
+                android:fontFamily="sans-serif-light"/>
         </android.support.design.widget.TextInputLayout>
 
         <!-- Confirm Password Label -->
@@ -70,7 +70,7 @@
                 android:layout_height="wrap_content"
                 android:inputType="textPassword"
                 android:hint="Confirm Password"
-                android:fontFamily="fonts/Roboto-Light.ttf"/>
+                android:fontFamily="sans-serif-light"/>
         </android.support.design.widget.TextInputLayout>
 
         <!--  Phone Label -->
@@ -84,7 +84,7 @@
                 android:layout_height="wrap_content"
                 android:inputType="phone"
                 android:hint="Phone Number"
-                android:fontFamily="sans-serif-thin"/>
+                android:fontFamily="sans-serif-light"/>
         </android.support.design.widget.TextInputLayout>
 
         <android.support.design.widget.TextInputLayout
@@ -96,7 +96,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="Name of the College"
-                android:fontFamily="sans-serif-thin"/>
+                android:fontFamily="sans-serif-light"/>
         </android.support.design.widget.TextInputLayout>
         <android.support.design.widget.TextInputLayout
             android:layout_width="match_parent"
@@ -108,6 +108,8 @@
                 android:layout_width="match_parent"
 
                 android:hint="Department"
+                android:fontFamily="sans-serif-light"
+                android:textStyle="bold"
                 android:id="@+id/dept"
 
                 />
@@ -122,6 +124,8 @@
                 android:layout_width="match_parent"
                 android:id="@+id/year"
                 android:hint="Year"
+                android:fontFamily="sans-serif-light"
+                android:textStyle="bold"
                 />
         </android.support.design.widget.TextInputLayout>
 
@@ -136,7 +140,7 @@
             android:layout_marginBottom="24dp"
             android:padding="12dp"
             android:text="Register"
-            android:fontFamily="sans-serif-thin"
+            android:fontFamily="sans-serif-light"
             android:background="@drawable/register"/>
 
         <TextView android:id="@+id/link_login"
@@ -145,7 +149,7 @@
             android:layout_marginBottom="24dp"
             android:text="Already a member? Login"
             android:textColor="#FFFFFF"
-            android:fontFamily="sans-serif-thin"
+            android:fontFamily="sans-serif-light"
             android:gravity="center"
             android:textSize="16dip"/>
 
