@@ -34,7 +34,25 @@ public class events_fragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)  {
         super.onCreate(savedInstanceState);
         view = inflater.inflate(R.layout.events,container,false);
+        view.setFocusableInTouchMode(true);
+        view.requestFocus();
+        /*view.setOnKeyListener(new View.OnKeyListener() {
+           @Override
+            public boolean onKey(View v, int keyCode, KeyEvent event) {
 
+                if (event.getAction() == KeyEvent.ACTION_UP && keyCode == KeyEvent.KEYCODE_BACK){
+
+                    // handle back button
+                    // Toast.makeText(getActivity(),"lol",Toast.LENGTH_LONG).show();
+                    draggableView.minimize();
+                    MainActivity.inevent=true;
+                    return true;
+
+                }
+
+                return false;
+            }
+        });*/
         locateView();
         setListViewAdapter();
         listView.setOnItemClickListener(onItemClickListener());

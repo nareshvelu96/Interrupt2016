@@ -47,7 +47,7 @@
             android:layout_width="wrap_content"
             android:layout_height="50dp"
             android:id="@+id/call4"
-            android:tint="#00c6ff"
+            android:tint="@color/primary_dark"
             android:backgroundTint="#FFFFFF"
             android:layout_gravity="right"
             android:src="@mipmap/ic_ring_volume_white_36dp" />
@@ -94,7 +94,7 @@
             android:layout_width="wrap_content"
             android:layout_height="50dp"
             android:id="@+id/call2"
-            android:tint="#00c6ff"
+            android:tint="@color/primary_dark"
             android:backgroundTint="#FFFFFF"
             android:layout_gravity="right"
             android:src="@mipmap/ic_ring_volume_white_36dp" />
@@ -140,7 +140,7 @@
             android:layout_width="wrap_content"
             android:layout_height="50dp"
             android:id="@+id/call3"
-            android:tint="#00c6ff"
+            android:tint="@color/primary_dark"
             android:backgroundTint="#FFFFFF"
             android:layout_gravity="right"
             android:src="@mipmap/ic_ring_volume_white_36dp" />
@@ -168,6 +168,7 @@
                 android:fontFamily="sans-serif-light"
                 android:textStyle="bold|italic"
                 android:layout_margin="16dp"
+                android:layout_alignParentLeft="true"
                 android:textSize="25dp"
                 android:layout_centerVertical="true"
                 android:layout_centerHorizontal="true"
@@ -190,6 +191,7 @@
                 android:onClick="fb"
                 android:layout_centerVertical="true"
                 android:layout_centerHorizontal="true"
+                android:layout_alignParentLeft="true"
                 android:layout_alignParentStart="true" />
 
 

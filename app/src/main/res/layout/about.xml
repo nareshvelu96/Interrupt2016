@@ -4,7 +4,7 @@
     android:orientation="vertical"
     android:backgroundTint="@color/primary_custom"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
     android:background="@color/primary"
 
     tools:ignore="MissingPrefix"
@@ -67,7 +67,6 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@drawable/register"
-        android:textColor="@color/primary_text"
         android:gravity="center|center_vertical"
         android:text="Events"
         android:textSize="25dp"

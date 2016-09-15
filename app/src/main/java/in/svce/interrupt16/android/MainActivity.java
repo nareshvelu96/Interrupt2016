@@ -103,8 +103,6 @@ public class MainActivity extends AppCompatActivity
             fragmentManager.beginTransaction().replace(R.id.content_frame, new transport()).commit();
         } else if (id == R.id.nav_map) {
             fragmentManager.beginTransaction().replace(R.id.content_frame, new svcemap()).commit();
-        } else if (id == R.id.nav_reg) {
-            fragmentManager.beginTransaction().replace(R.id.content_frame, new eventreg()).commit();
         } else if (id == R.id.nav_contact) {
             fragmentManager.beginTransaction().replace(R.id.content_frame, new contact()).commit();
         } else if (id == R.id.nav_sponsors) {

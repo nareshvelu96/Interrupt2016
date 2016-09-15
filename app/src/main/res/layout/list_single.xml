@@ -12,7 +12,7 @@
         app:cardCornerRadius="2dp"
         app:cardElevation="2dp"
         app:cardPreventCornerOverlap="false"
-        card_view:cardBackgroundColor="@color/primary"
+        card_view:cardBackgroundColor="@color/primary_dark"
         app:contentPadding="0dp"
         >
 
