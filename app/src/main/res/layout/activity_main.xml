@@ -29,7 +29,7 @@
                 app:itemTextColor="@color/drawer_item"
                 android:layout_weight="1"
                 android:layout_height="0dp"
-                android:background="@color/primary_custom"
+                android:background="@color/primary_dark"
                 app:headerLayout="@layout/nav_header_main"
                 app:menu="@menu/activity_main_drawer" >
             </android.support.design.widget.NavigationView>
@@ -38,6 +38,7 @@
                 android:layout_height="wrap_content"
                 android:text="Spread The Word"
                 android:fontFamily="sans-serif-thin"
+                android:textStyle="bold"
                 android:layout_weight="0"
                 android:id="@+id/share"
                 android:background="@color/accent" />

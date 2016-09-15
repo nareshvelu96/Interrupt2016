@@ -20,6 +20,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="0"
             android:ems="10"
+            android:popupBackground="@color/white"
             android:fontFamily="sans-serif-light"
             android:hint="Enter Stop"
             android:layout_margin="10dp"
