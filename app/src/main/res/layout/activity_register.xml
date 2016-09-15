@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:apps="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:fitsSystemWindows="true"
     android:background="@color/primary_custom"
     tools:ignore="MissingPrefix">
@@ -27,6 +28,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:inputType="textCapWords"
+                android:textColor="@color/white"
                 android:hint="Name"
                 android:fontFamily="sans-serif-light"/>
         </android.support.design.widget.TextInputLayout>
@@ -40,6 +42,7 @@
             <EditText android:id="@+id/email"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:textColor="@color/white"
                 android:inputType="textEmailAddress"
                 android:hint="Email"
                 android:fontFamily="sans-serif-light"/>
@@ -49,6 +52,7 @@
         <android.support.design.widget.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            app:passwordToggleEnabled="false"
             android:layout_marginTop="8dp"
             android:layout_marginBottom="8dp">
             <EditText android:id="@+id/passwrd"
@@ -56,6 +60,8 @@
                 android:layout_height="wrap_content"
                 android:inputType="textPassword"
                 android:hint="Password"
+
+android:textColor="@color/white"
                 android:fontFamily="sans-serif-light"/>
         </android.support.design.widget.TextInputLayout>
 
@@ -64,8 +70,10 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
+            apps:passwordToggleEnabled="false"
             android:layout_marginBottom="8dp">
             <EditText android:id="@+id/rpasswrd"
+                android:textColor="@color/white"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:inputType="textPassword"
@@ -80,6 +88,7 @@
             android:layout_marginTop="8dp"
             android:layout_marginBottom="8dp">
             <EditText android:id="@+id/phone"
+                android:textColor="@color/white"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:inputType="phone"
@@ -93,6 +102,7 @@
             android:layout_marginTop="8dp"
             android:layout_marginBottom="8dp">
             <EditText android:id="@+id/college"
+                android:textColor="@color/white"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="Name of the College"
@@ -106,10 +116,9 @@
             <com.weiwangcn.betterspinner.library.material.MaterialBetterSpinner
                 android:layout_height="wrap_content"
                 android:layout_width="match_parent"
-
+                android:textColor="@color/white"
                 android:hint="Department"
                 android:fontFamily="sans-serif-light"
-                android:textStyle="bold"
                 android:id="@+id/dept"
 
                 />
@@ -125,7 +134,6 @@
                 android:id="@+id/year"
                 android:hint="Year"
                 android:fontFamily="sans-serif-light"
-                android:textStyle="bold"
                 />
         </android.support.design.widget.TextInputLayout>
 
