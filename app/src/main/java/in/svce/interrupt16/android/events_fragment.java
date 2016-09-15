@@ -4,6 +4,7 @@ import android.app.Fragment;
 import android.content.res.Resources;
 import android.graphics.Typeface;
 import android.os.Bundle;
+import android.view.KeyEvent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -37,6 +38,27 @@ public class events_fragment extends Fragment {
         locateView();
         setListViewAdapter();
         listView.setOnItemClickListener(onItemClickListener());
+
+        view.setFocusableInTouchMode(true);
+        view.requestFocus();
+        view.setOnKeyListener(new View.OnKeyListener() {
+            @Override
+            public boolean onKey(View v, int keyCode, KeyEvent event) {
+
+                if (event.getAction() == KeyEvent.ACTION_UP && keyCode == KeyEvent.KEYCODE_BACK){
+
+                    // handle back button
+                    // Toast.makeText(getActivity(),"lol",Toast.LENGTH_LONG).show();
+                    draggableView.minimize();
+                    MainActivity.inevent=false;
+                    return true;
+
+                }
+
+                return false;
+            }
+        });
+
         return view;
 
     }
@@ -125,7 +147,7 @@ public class events_fragment extends Fragment {
            if(check==0)
 {Toast.makeText(getActivity(),"Swipe down to minimize",Toast.LENGTH_SHORT).show();
  check++;
-}
+}               MainActivity.inevent=true;
                 draggableView.maximize();
             }
         };
