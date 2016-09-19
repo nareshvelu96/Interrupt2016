@@ -8,9 +8,9 @@
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:511804971475:android:9420220437bb067e",
+        "mobilesdk_app_id": "1:511804971475:android:3873898c51e02e8c",
         "android_client_info": {
-          "package_name": "com.example.naresh.interrupt2016"
+          "package_name": "in.svce.interrupt16.android"
         }
       },
       "oauth_client": [
