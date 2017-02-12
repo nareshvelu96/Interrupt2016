@@ -5,3 +5,5 @@ Event Details are explained in a clean-cut fashion.
 Event registration can be done beforehand which would then generate a QR code that can be scanned on the day of the event. 
 A map of the college campus, helps in navigation.
 You can talk to our friendly chatbot INTBOT for more details! 
+
+![alt tag](https://github.com/nareshvelu96/Interrupt2016/blob/master/app/src/main/res/drawable/interrupt_icon.png)
